@@ -14,11 +14,14 @@
 // arr.splice(5,2);// remove 2 values from 5th index
 // console.log(a);
 
-var laptop = {
-    brand: "Asus",
-    model: "X515",
-    price: "53k",
-    ram: "8GB",
-    Memory: "512GB",
-    Disktype: "SDD"
-}
+// var laptop = {
+//     brand: "Asus",
+//     model: "X515",
+//     price: "53k",
+//     ram: "8GB",
+//     Memory: "512GB",
+//     Disktype: "SDD"
+// }
+
+var obj = {p:5};
+var obj1 = {...obj}

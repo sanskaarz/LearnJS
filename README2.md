@@ -1,6 +1,6 @@
 JS has two versions
 1. ES5(only var)(old e)
-2. ES6(let & const included)
+2. ECMA Script6 ES6(let & const included)
 
 
 Undefined - Exist but no value
@@ -68,4 +68,5 @@ callback function = esa function jo tb chlta hai jb kaam complete ho jaaye
 
 first class functions = iske according hum functions ko as a value use kr skte hai
 
-heap memory is used to store the data 
+heap memory is used to store the data
+

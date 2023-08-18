@@ -11,7 +11,7 @@ If there exist Brackets {} or [] or () then variale is refrence
 if not Bracket exist then variable is primitive
 
 
-function = code ko naam dena
+function = name of the set of code,executed when it is called
 function ke chlte hi sbse pehle execution context bnta hai 
 
 Execution Context :-
@@ -54,7 +54,7 @@ Truthy ((
 loops((
     (
         foreach(
-            works only for looping on array
+            works for looping on array
             works on each and every value "Har Ek"
         )
         forin(
@@ -63,4 +63,9 @@ loops((
         )
     )
 ))
+
+callback function = esa function jo tb chlta hai jb kaam complete ho jaaye
+
+first class functions = iske according hum functions ko as a value use kr skte hai
+
 heap memory is used to store the data 

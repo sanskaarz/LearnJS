@@ -1,5 +1,5 @@
 
-
+// getElementById('name of the id').task = taskValue To access any emelent by it's Id
 // function till50(){for(var i= 25; i<50; i++){
 //     console.log(i);
 // }}
@@ -25,3 +25,5 @@
 
 var obj = {p:5};
 var obj1 = {...obj}
+
+

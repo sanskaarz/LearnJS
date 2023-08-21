@@ -68,5 +68,6 @@ callback function = esa function jo tb chlta hai jb kaam complete ho jaaye
 
 first class functions = iske according hum functions ko as a value use kr skte hai
 
-heap memory is used to store the data
 
+
+heap memory is used to store the data

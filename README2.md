@@ -7,7 +7,7 @@ Undefined - Exist but no value
 Not- Defined - Does not Exist
 
 
-If there exist Brackets {} or [] or () then variale is refrence
+If there exist Brackets {} or [] or () then variable is refrence
 if not Bracket exist then variable is primitive
 
 
@@ -68,6 +68,10 @@ callback function = esa function jo tb chlta hai jb kaam complete ho jaaye
 
 first class functions = iske according hum functions ko as a value use kr skte hai
 
+to print in JS
+
+console.log(Hello World)
+alert(Hello World)
 
 
 heap memory is used to store the data

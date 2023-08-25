@@ -64,6 +64,7 @@ loops((
     )
 ))
 
+
 callback function = esa function jo tb chlta hai jb kaam complete ho jaaye
 
 first class functions = iske according hum functions ko as a value use kr skte hai
@@ -75,3 +76,9 @@ alert(Hello World)
 
 
 heap memory is used to store the data
+
+
+-00000000000000000000000000000101
+00000000000000000000000000000101
+00000000000000000000000000000001
+00000000000000000000000000000010

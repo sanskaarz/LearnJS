@@ -65,6 +65,7 @@ loops((
 ))
 
 
+
 callback function = esa function jo tb chlta hai jb kaam complete ho jaaye
 
 first class functions = iske according hum functions ko as a value use kr skte hai

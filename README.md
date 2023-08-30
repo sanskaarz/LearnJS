@@ -8,3 +8,5 @@ Types of Scopes
 - var
 - const
 
+
+...........................

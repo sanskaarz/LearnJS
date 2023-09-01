@@ -1,38 +1,4 @@
-JS has two versions
-1. ES5(only var)(old e)
-2. ECMA Script6 ES6(let & const included)
 
-
-Undefined - Exist but no value
-Not- Defined - Does not Exist
-
-
-If there exist Brackets {} or [] or () then variable is refrence
-if not Bracket exist then variable is primitive
-
-
-function = name of the set of code,executed when it is called
-function ke chlte hi sbse pehle execution context bnta hai 
-
-Execution Context :-
-1. variable
-2. Functions inside the parent function
-3. Lexical Environment - It tells us that, what we can access or what we cannot access
-
-arguments = real values jo hum dete hai
-parameters = variables jinme values store hoti hai
-
-array = to store more then one value to a variable
-
-{} = object
-
-method = property of object whose value is a function
-
-var ((
-    it can be used anywhere in it's parent function(function scoped)
-    it shows in window
-))
-let= it doesnot shows itself in window
 
 to copy an array((
     var a = [1,2,3,4,5]
@@ -93,9 +59,22 @@ Identifiers are used to name variables and keywords, and functions.Also Known as
 
 Keywords =  let , var , const
 
+Redeclaring
 let , const can not be re-decleared
 var can be redecleared
 
-Strings are written inside double or single quotes. Numbers are written without quotes.
+
+var x = 2;     // Allowed
+var x = 3;     // Allowed
+x = 4;         // Allowed
+
+  const x = 2;   // Allowed
+  x = 2;         // Not allowed
+  var x = 2;     // Not allowed
+  let x = 2;     // Not allowed
+  const x = 2;   // Not allowed
+
+
+Strings are written inside double or sinle quotes. Numbers are written without quotes.
 
 <span style="color: red;">text</span>

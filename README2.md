@@ -83,3 +83,12 @@ heap memory is used to store the data
 00000000000000000000000000000101
 00000000000000000000000000000001
 00000000000000000000000000000010
+
+
+
+Literals = Fixed Data Values =  Numbers , Strings
+Variables = Used to store data values 
+
+Identifiers are used to name variables and keywords, and functions.
+
+Keywords =  let , var , const

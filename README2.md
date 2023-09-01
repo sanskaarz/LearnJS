@@ -59,7 +59,7 @@ Identifiers are used to name variables and keywords, and functions.Also Known as
 
 Keywords =  let , var , const
 
-Redeclaring
+# Redeclaring
 let , const can not be re-decleared
 var can be redecleared
 
@@ -68,11 +68,23 @@ var x = 2;     // Allowed
 var x = 3;     // Allowed
 x = 4;         // Allowed
 
-  const x = 2;   // Allowed
-  x = 2;         // Not allowed
-  var x = 2;     // Not allowed
-  let x = 2;     // Not allowed
-  const x = 2;   // Not allowed
+
+const x = 2;   // Allowed
+x = 4;         // Not allowed
+var x = 5;     // Not allowed
+let x = 6;     // Not allowed
+const x = 7;   // Not allowed
+
+
+
+let x = 2;   // Allowed
+x = 4;       // Not allowed
+var x = 5;     // Not allowed
+let x = 6;     // Not allowed
+const x = 7;   // Not allowed
+
+
+
 
 
 Strings are written inside double or sinle quotes. Numbers are written without quotes.

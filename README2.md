@@ -85,6 +85,51 @@ const x = 7;   // Not allowed
 
 
 
+Operators in JS
+Arithmetic Operators
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation / power  x**2 is same as Math.pow(x,2)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment by 1
+--	Decrement by 1
+
+
+
+Assignment Operators
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+Shift Assignment Operators (works on 32bit form of numbers) ()
+<<= 	Left Shift Assignment Operator		remove the left bit and add a 0 to the right side
+>>=	Right Shift Assignment Operator		remove the right bit and add 0 to the left side
+ Short Trick https://youtube.com/shorts/7kzXJ434L84?si=usz8J1Kf_IYI1hCS 
+>>>=
+
+
+
+
+Data Types
+let x = 16 + 4 + "Volvo";
+// Output = 20Volvo
+
+let x = "Volvo" + 16 + 4;
+Volvo164
+Empty value ("") = String
+
+Functions
+Executed only when it is invoked / called
+The code to be executed, by the function, is placed inside curly brackets: {}
+Hoisting works 
+You can write code that can be used many time
+
 
 Strings are written inside double or sinle quotes. Numbers are written without quotes.
 <span style="color: red;">text</span>

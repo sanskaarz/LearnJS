@@ -23,7 +23,7 @@
 //     Disktype: "SDD"
 // }
 
+
+
 var obj = {p:5};
 var obj1 = {...obj}
-
-

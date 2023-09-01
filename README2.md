@@ -86,5 +86,4 @@ const x = 7;   // Not allowed
 
 
 Strings are written inside double or sinle quotes. Numbers are written without quotes.
-
 <span style="color: red;">text</span>

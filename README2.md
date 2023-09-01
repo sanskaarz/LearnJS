@@ -89,6 +89,13 @@ heap memory is used to store the data
 Literals = Fixed Data Values =  Numbers , Strings
 Variables = Used to store data values 
 
-Identifiers are used to name variables and keywords, and functions.
+Identifiers are used to name variables and keywords, and functions.Also Known as Unique Variables.
 
 Keywords =  let , var , const
+
+let , const can not be re-decleared
+var can be redecleared
+
+Strings are written inside double or single quotes. Numbers are written without quotes.
+
+<span style="color: red;">text</span>

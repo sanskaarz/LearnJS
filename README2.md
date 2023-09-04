@@ -108,10 +108,11 @@ Assignment Operators
 **=	x **= y	x = x ** y
 
 Shift Assignment Operators (works on 32bit form of numbers) ()
-<<= 	Left Shift Assignment Operator		remove the left bit and add a 0 to the right side
->>=	Right Shift Assignment Operator		remove the right bit and add 0 to the left side
- Short Trick https://youtube.com/shorts/7kzXJ434L84?si=usz8J1Kf_IYI1hCS 
->>>=
+<<= Left Shift Assignment Operator
+    remove the left bit and add a 0 to the right side
+>>=	Right Shift Assignment Operator
+    remove the right bit and add 0 to the left side
+
 
 
 

@@ -155,7 +155,7 @@ const dict = {
 1. To print all the elements of object 4 times
 for (let anyword in dict){
   console.log(dict);
-  
+
 }
 
 2. To print all the values of elements of object
@@ -175,3 +175,34 @@ let anyword in dict = It stores all the values of dict in anyword
 
 3. # for out
 Iterates/Works over the values of an iterable object
+Rearly used 
+
+
+4. # while
+
+while(condition){
+    // code to be executed
+}
+
+5. # Do While
+    do{
+        //code to be executed
+    }while(condition);
+
+# Function
+1. Function without parameters
+function functionname(){
+    // code to be excuted 
+}
+
+2. Function with parameters
+function functionname(a,b){
+    // code to be excuted having the use of parameters
+}
+
+
+Example:-
+
+function myfunc(x, y) {
+  return (x + y)
+}

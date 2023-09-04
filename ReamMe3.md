@@ -155,6 +155,7 @@ const dict = {
 1. To print all the elements of object 4 times
 for (let anyword in dict){
   console.log(dict);
+  
 }
 
 2. To print all the values of elements of object

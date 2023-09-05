@@ -266,8 +266,10 @@ function myfunc(x, y) {
   4. name.slice(-7);              // extract the whole string from 7(from end) to starting
   5. name.slice(-7 , -13);        // extract the whole string from 7(from end) to 13(from end)
 
-5. name.replace("old string", "new string")
-6. name.concat();
+5. name.slice()                      // Extracts a part of a string and returns the extracted part
+6. name.slice()                      // Extracts a part of a string and returns the extracted part
+7. name.replace("old string", "new string")
+. name.concat();
   Examples:-
   let name = "sans";
   let name2 = "kar";
@@ -276,9 +278,9 @@ function myfunc(x, y) {
   3. console.log(name.concat(name2 , "is hot"));
                   **OR**
   3. console.log(name + name2 + " is a cool guy");
-7. name.trim()                   //  removes whitespace from both sides of a string
-8. name.trimStart()              //  removes whitespace from Start of a string
-9. name.trimEnd()                //  removes whitespace from End of a string
-10. name.includes("")            //  check weather the string contain any specific value
-11. name.startsWith("")          //  check weather the string starts with specific value
-11. name.endsWith("")            //  check weather the string ends with specific value
+8. name.trim()                   //  removes whitespace from both sides of a string
+9. name.trimStart()              //  removes whitespace from Start of a string
+10. name.trimEnd()                //  removes whitespace from End of a string
+11. name.includes("")            //  check weather the string contain any specific value
+12. name.startsWith("")          //  check weather the string starts with specific value
+13. name.endsWith("")            //  check weather the string ends with specific value

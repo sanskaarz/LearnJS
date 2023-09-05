@@ -280,7 +280,7 @@ function myfunc(x, y) {
   3. console.log(name + name2 + " is a cool guy");
 8. name.trim()                   //  removes whitespace from both sides of a string
 9. name.trimStart()              //  removes whitespace from Start of a string
-10. name.trimEnd()                //  removes whitespace from End of a string
+10. name.trimEnd()               //  removes whitespace from End of a string
 11. name.includes("")            //  check weather the string contain any specific value
 12. name.startsWith("")          //  check weather the string starts with specific value
 13. name.endsWith("")            //  check weather the string ends with specific value

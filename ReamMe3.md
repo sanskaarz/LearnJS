@@ -141,47 +141,73 @@ for(initialize; condition ; increament){
 }
 
 2. # for in
-Iterates/Works over the properties of an object
-used to go through all the properties (keys) of an object
+Iterates/Works over the properties/keys of an object
 Loop running count = Number of elemets in the object
 
-Example:-
+  Example 1 :-
 
-const dict = {
-  water : "pani",
-  lens :"Chasma",
-  bag : "BAsta",
-  mobile : "Phone"
-};
+  const dict = {
+    water : "pani",
+    lens :"Chasma",
+    bag : "BAsta",
+    mobile : "Phone"
+  };
 
-1. To print all the elements of object as an object 4 times
-for (let anyword in dict){
-  console.log(dict);
-}
+  1. To print all the elements of object as an object 4 times
+  for (let anyword in dict){
+    console.log(dict);
+  }
 
-2. To print all the values of elements of object
+  2. To print all the values of elements of object
 
-for (let anyword in dict){
-  console.log(anyword);
-}
+  for (let anyword in dict){
+    console.log(anyword);
+  }
 
-3. To print all the keys of elements of object
+  3. To print all the keys of elements of object
 
-for (let anyword in dict){
-  console.log(dict[anyword]);
-}
-             **OR**
-for (let anyword in dict){
-  console.log(dict.anyword);
-}
+  for (let anyword in dict){
+    console.log(dict[anyword]);
+  }
+              **OR**
+  for (let anyword in dict){
+    console.log(dict.anyword);
+  }
 
-let anyword in dict = It stores all the values of dict in anyword
+  let anyword in dict = It stores all the values of dict in anyword
 
+  Example 2 :-
+  let name = "sanskar";
+    for(let a in name){
+      console.log(name[a])
+    }  
 
-3. # for out
+  Gives:- 
+  s
+  a
+  n
+  s
+  k
+  a
+  r
+
+3. # for of
 Iterates/Works over the values of an iterable object
-Rearly used 
 
+Example:-
+let name = "sanskar";
+  for(let a of name){
+    console.log(a)
+  }
+
+  Gives:- 
+  s
+  a
+  n
+  s
+  k
+  a
+  r
 
 4. # while
 
@@ -250,6 +276,8 @@ function myfunc(x, y) {
   3. console.log(name.concat(name2 , "is hot"));
                   **OR**
   3. console.log(name + name2 + " is a cool guy");
- 7. name.trim()                   //  removes whitespace from both sides of a string
- 8. name.trimStart()              //  removes whitespace from Start of a string
- 9. name.trimEnd()                //  removes whitespace from End of a string
+7. name.trim()                   //  removes whitespace from both sides of a string
+8. name.trimStart()              //  removes whitespace from Start of a string
+9. name.trimEnd()                //  removes whitespace from End of a string
+10. name.includes("string")                //  check weather the string contain any specific value
+11. name.startsWith("")

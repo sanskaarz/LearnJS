@@ -284,3 +284,6 @@ function myfunc(x, y) {
 11. name.includes("")            //  check weather the string contain any specific value
 12. name.startsWith("")          //  check weather the string starts with specific value
 13. name.endsWith("")            //  check weather the string ends with specific value
+
+
+https://www.youtube.com/watch?v=1QX0DzLQcc8&ab_channel=codedamn

@@ -9,10 +9,10 @@ cont = initialization is Required
 var = initialization is optional 
 
 
-	    Block scoped	Hoisting	Reassignment	Initialization
+	    Block scoped	Hoisting	    Reassignment	      Initialization
 let	    Yes	            No	        Yes	            Optional
-var	    No	            Yes     	Yes	            Optional
-const	Yes	            No	        No	            Required
+var	    No	            Yes     	  Yes	            Optional
+const	  Yes	            No	        No	            Required
 
 
 # 7 Premitive DataTypes
@@ -152,10 +152,9 @@ const dict = {
   mobile : "Phone"
 };
 
-1. To print all the elements of object 4 times
+1. To print all the elements of object as an object 4 times
 for (let anyword in dict){
   console.log(dict);
-
 }
 
 2. To print all the values of elements of object
@@ -168,6 +167,10 @@ for (let anyword in dict){
 
 for (let anyword in dict){
   console.log(dict[anyword]);
+}
+             **OR**
+for (let anyword in dict){
+  console.log(dict.anyword);
 }
 
 let anyword in dict = It stores all the values of dict in anyword
@@ -192,12 +195,12 @@ while(condition){
 # Function
 1. Function without parameters
 function functionname(){
-    // code to be excuted 
+    // code to be executed 
 }
 
 2. Function with parameters
 function functionname(a,b){
-    // code to be excuted having the use of parameters
+    // code to be executed having the use of parameters
 }
 
 
@@ -207,3 +210,14 @@ function myfunc(x, y) {
   return (x + y)
 }
 
+# Strings
+
+1. "Hello my value is " + a    //double quotes
+2. 'Hello' my value is " + a   //Single Quotes 
+3. `Hello my value is ${a}`    //Backticks     
+    //Template Literals = We can add variables to strings using template literals  
+4. Escape Sequences
+   "Hello\nWorld"               //   /n = creates a new line
+   "Hello\tWorld"               //   /t = creates a tab
+   "Hello\'World"               //   /' = creates a single quote 
+  

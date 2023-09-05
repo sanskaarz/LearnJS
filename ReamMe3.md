@@ -136,7 +136,9 @@ a = Number.parseInt(a); // Convert string to a number
 
 # Loops 
 1. # for
-for(initialize; condition ; increament)
+for(initialize; condition ; increament){
+  //code to be executed
+}
 
 2. # for in
 Iterates/Works over the properties of an object

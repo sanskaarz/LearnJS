@@ -279,5 +279,6 @@ function myfunc(x, y) {
 7. name.trim()                   //  removes whitespace from both sides of a string
 8. name.trimStart()              //  removes whitespace from Start of a string
 9. name.trimEnd()                //  removes whitespace from End of a string
-10. name.includes("string")                //  check weather the string contain any specific value
-11. name.startsWith("")
+10. name.includes("")            //  check weather the string contain any specific value
+11. name.startsWith("")          //  check weather the string starts with specific value
+11. name.endsWith("")            //  check weather the string ends with specific value

@@ -257,7 +257,7 @@ function myfunc(x, y) {
 1. name.length()                  // To get the length of the string 
 2. name.toUpperCase()
 3. name.toLowerCase()
-4. name.slice()                      // Extracts a part of a string and returns the extracted part
+4. name.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices
     slice counts the blanks/spaces but not print them
   Examples:-
   1. name.slice(7, 13);
@@ -266,9 +266,9 @@ function myfunc(x, y) {
   4. name.slice(-7);              // extract the whole string from 7(from end) to starting
   5. name.slice(-7 , -13);        // extract the whole string from 7(from end) to 13(from end)
 
-5. name.slice()                      // Extracts a part of a string and returns the extracted part
-6. name.slice()                      // Extracts a part of a string and returns the extracted part
-7. name.replace("old string", "new string")
+5. name.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
+6. name.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
+7. name.replace("old string", "new string") 
 . name.concat();
   Examples:-
   let name = "sans";

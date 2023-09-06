@@ -321,13 +321,23 @@ let array = []
      namelist = ["aa" , "bb" , 7]
      namelist.push("cc")
 
+     Gives:- ['aa', 'bb', 7, 'cc']
+
 6. namelist.shift()                         // removes first element of array
-6. namelist.unshift()                       // add a new elemnt to array (at the beginning)
+7. namelist.unshift()                       // add a new elemnt to array (at the beginning)
     Example:-
      namelist = ["aa" , "bb" , 7]
      namelist.unshift("cc")
+     
+     Gives:- [ 'cc', 'aa', 'bb', 7 ]
 
 
 
-7. 
+8. delete namelist[index of element]        // delete a element from array and makes a empty space there
+9. concat()                                 // Merge arrays
+    Example:-
+     namelist = ["aa" , "bb" , 7]
+     namelistt = ["hell" , "bboy " , 456]
+let healer  = namelist.concat(namelistt)
+console.log(healer)
 

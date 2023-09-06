@@ -133,6 +133,8 @@ console.log()
 
 TypeCasting
 a = Number.parseInt(a); // Convert string to a number
+a = parseInt(a); // Convert string to a number                 // Latest
+
 
 # Loops 
 1. # for
@@ -268,8 +270,11 @@ function myfunc(x, y) {
 
 5. name.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
 6. name.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
-7. name.replace("old string", "new string") 
-. name.concat();
+6. name.charAt(index)                             // Extracts a returns the character at a specified index
+6. name.charCodeAt(index)                         // Extracts a returns the unicode of character at a specified index
+7. name.replace("old string", "new string")
+8. name.replaceAll("old string", "new string")
+9. name.concat();
   Examples:-
   let name = "sans";
   let name2 = "kar";
@@ -278,9 +283,28 @@ function myfunc(x, y) {
   3. console.log(name.concat(name2 , "is hot"));
                   **OR**
   3. console.log(name + name2 + " is a cool guy");
-8. name.trim()                   //  removes whitespace from both sides of a string
-9. name.trimStart()              //  removes whitespace from Start of a string
-10. name.trimEnd()               //  removes whitespace from End of a string
-11. name.includes("")            //  check weather the string contain any specific value
-12. name.startsWith("")          //  check weather the string starts with specific value
-13. name.endsWith("")            //  check weather the string ends with specific value
+10. name.trim()                  //  removes whitespace from both sides of a string
+11. name.trimStart()             //  removes whitespace from Start of a string
+12. name.trimEnd()               //  removes whitespace from End of a string
+13. name.includes("")            //  check weather the string contain any specific value
+14. name.startsWith("")          //  check weather the string starts with specific value
+15. name.endsWith("")            //  check weather the string ends with specific value
+16. name.split("separator");     //  String converted into Array, the separator is omitted
+    Example:-
+    let text = "a,b,c,d,e,f";
+    let myArray = text.split(",");
+    console.log(myArray[2];)
+
+    Gives:-
+    c
+
+
+# Arrays      DataType = objects
+
+const array = []
+let array = []
+
+
+# Array Mathods
+
+1. namelist.length

@@ -308,3 +308,26 @@ let array = []
 # Array Mathods
 
 1. namelist.length
+2. namelist.toString()                      // Convert to string
+3. namelist.join()                          // Merge array items by Adding value in middle , converts Array to String 
+    Example:-
+     namelist = ["aa" , "bb" , 7]
+     namelist.join("-") = Gives :- aa-bb-7
+     namelist.join("8") = Gives :- aa8bb87
+
+4. namelist.pop()                           // Removes last element of array
+5. namelist.push()                          // Insert new element to array (at the end)
+    Example:-
+     namelist = ["aa" , "bb" , 7]
+     namelist.push("cc")
+
+6. namelist.shift()                         // removes first element of array
+6. namelist.unshift()                       // add a new elemnt to array (at the beginning)
+    Example:-
+     namelist = ["aa" , "bb" , 7]
+     namelist.unshift("cc")
+
+
+
+7. 
+

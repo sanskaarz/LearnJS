@@ -331,13 +331,20 @@ let array = []
      
      Gives:- [ 'cc', 'aa', 'bb', 7 ]
 
-
-
 8. delete namelist[index of element]        // delete a element from array and makes a empty space there
 9. concat()                                 // Merge arrays
     Example:-
-     namelist = ["aa" , "bb" , 7]
-     namelistt = ["hell" , "bboy " , 456]
-let healer  = namelist.concat(namelistt)
-console.log(healer)
+    1. 
+    namelist = ["aa" , "bb" , 7]
+    namelistt = ["cc" , 786]
+    namelisttt = ["bb" ,"$"]
+    let newlist  = namelist.concat(namelistt , namelisttt)
+
+    Gives:- ['aa', 'bb', 7, 'cc', 786, 'bb', '$']
+
+    2. 
+    namelist = ["aa" , "bb" , 7]
+    namelist.concat("niuuu")
+
+
 

@@ -20,3 +20,7 @@ else{
     console.log("You have entered a correct number");
   }
 }
+
+// Arrow Function
+// Event
+// 

@@ -10,9 +10,9 @@ var = initialization is optional
 
 
 	    Block scoped	Hoisting	    Reassignment	      Initialization
-let	    Yes	            No	        Yes	            Optional
-var	    No	            Yes     	  Yes	            Optional
-const	  Yes	            No	        No	            Required
+	    let	    Yes	            No	        Yes	            Optional
+	    var	    No	            Yes     	  Yes	            Optional
+	    const	  Yes	            No	        No	            Required
 
 
 # 7 Premitive DataTypes
@@ -290,6 +290,7 @@ function myfunc(x, y) {
 14. name.startsWith("")          //  check weather the string starts with specific value
 15. name.endsWith("")            //  check weather the string ends with specific value
 16. name.split("separator");     //  String converted into Array, the separator is omitted
+
     Example:-
     let text = "a,b,c,d,e,f";
     let myArray = text.split(",");
@@ -310,6 +311,7 @@ let array = []
 1. namelist.length
 2. namelist.toString()                      // Convert to string
 3. namelist.join()                          // Merge array items by Adding value in middle , converts Array to String 
+
     Example:-
      namelist = ["aa" , "bb" , 7]
      namelist.join("-") = Gives :- aa-bb-7
@@ -317,6 +319,7 @@ let array = []
 
 4. namelist.pop()                           // Removes last element of array
 5. namelist.push()                          // Insert new element to array (at the end)
+
     Example:-
      namelist = ["aa" , "bb" , 7]
      namelist.push("cc")
@@ -325,6 +328,7 @@ let array = []
 
 6. namelist.shift()                         // removes first element of array
 7. namelist.unshift()                       // add a new elemnt to array (at the beginning)
+
     Example:-
      namelist = ["aa" , "bb" , 7]
      namelist.unshift("cc")
@@ -333,6 +337,7 @@ let array = []
 
 8. delete namelist[index of element]        // delete a element from array and makes a empty space there
 9. concat()                                 // Merge arrays
+
     Example:-
     1. 
     namelist = ["aa" , "bb" , 7]
@@ -349,18 +354,12 @@ let array = []
 10. namelist.flat()
 
     Example:-
-
-
-
-
-
-
+    
     namelist = [[1,2],[3,[[[4]]]],[[5],6]]
 
     Gives:- [1, 2, 3, 4, 5, 6]
 
 11. namelist.splice(x , y , "" , "" , "" , ..........)
-
 
     x= index where element to be added, 
     y= how many elements should be removed,

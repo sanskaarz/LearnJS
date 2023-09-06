@@ -347,12 +347,20 @@ let array = []
     namelist.concat("niuuu")
 
 10. namelist.flat()
+
     Example:-
+
+
+
+
+
+
     namelist = [[1,2],[3,[[[4]]]],[[5],6]]
 
     Gives:- [1, 2, 3, 4, 5, 6]
 
 11. namelist.splice(x , y , "" , "" , "" , ..........)
+
 
     x= index where element to be added, 
     y= how many elements should be removed,

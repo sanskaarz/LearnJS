@@ -10,9 +10,9 @@ var = initialization is optional
 
 
 	    Block scoped	Hoisting	    Reassignment	      Initialization
-	    let	    Yes	            No	        Yes	            Optional
-	    var	    No	            Yes     	  Yes	            Optional
-	    const	  Yes	            No	        No	            Required
+let	    Yes	            No	        Yes	            Optional
+var	    No	            Yes     	  Yes	            Optional
+const	  Yes	            No	        No	            Required
 
 
 # 7 Premitive DataTypes
@@ -45,7 +45,7 @@ console.log(typeof x); = Give the type of variable
 To access value from it we can use :
 1. objectname.key
 2. objectname["Keyname"]
-# Arithmetic Operatrs
+# Arithmetic Operators
  +
  -
  *
@@ -96,7 +96,7 @@ else (condition){
 
 }
 
-2. Netsting
+2. Nesting
 if(contition){
 
 }
@@ -182,7 +182,7 @@ Loop running count = Number of elemets in the object
   let name = "sanskar";
     for(let a in name){
       console.log(name[a])
-    }  
+    }
 
   Gives:- 
   s
@@ -217,33 +217,33 @@ while(condition){
     // code to be executed
 }
 
-5. # Do While
+5. # do while
     do{
         //code to be executed
     }while(condition);
 
 # Function
 1. Function without parameters
-function functionname(){
+function myFunc(){
     // code to be executed 
 }
 
 2. Function with parameters
-function functionname(a,b){
+function myFunc(a,b){
     // code to be executed having the use of parameters
 }
 
 
 Example:-
 
-function myfunc(x, y) {
+function myFunc(x, y) {
   return (x + y)
 }
 
 # Strings
 
 1. "Hello my value is " + a    //double quotes
-2. 'Hello' my value is " + a   //Single Quotes 
+2. 'Hello my value is ' + a   //Single Quotes 
 3. `Hello my value is ${a}`    //Backticks     
     //Template Literals = We can add variables to strings using template literals  
 4. Escape Sequences (length of these are 1 in total)
@@ -256,7 +256,7 @@ function myfunc(x, y) {
 
 # String Methods
   
-1. name.length()                  // To get the length of the string 
+1. name.length()                  // To get the length of the string
 2. name.toUpperCase()
 3. name.toLowerCase()
 4. name.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices
@@ -366,3 +366,7 @@ let array = []
     ""= new elements
 
 
+# Array Sorting
+
+1. namelist.sort()                                       // sorts an array alphabetically
+2. fruits.reverse();                                     // reverse the current array 

@@ -253,7 +253,7 @@ function myFunc(x, y) {
   return (x + y);
 }
 
-⋅⋅* func
+⋅⋅* Unordered sub-list. 
 
 
 # Strings

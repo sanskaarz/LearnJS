@@ -240,7 +240,7 @@ while(condition){
      
 1. Function without parameters
 function myFunc(){
-    // code to be executed 
+    // code to be executed
 }
 
 2. Function with parameters

@@ -252,8 +252,7 @@ Example:-
 function myFunc(x, y) {
   return (x + y);
 }
-
-⋅⋅* Unordered sub-list. 
+* hello 
 
 
 # Strings

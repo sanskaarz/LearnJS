@@ -253,8 +253,24 @@ function myFunc(x, y) {
   return (x + y);
 }
 
-* hello
-- hello
+## Arrow Function
+
+* After Arrow Function
+
+hello = function() {
+  return "Hello World!";
+}
+
+* Before Arrow Function
+
+hello = () => {
+  return "Hello World!";
+}
+
+* - Arrow Functions Return Value by Default                // This works only when function has only one statement 
+hello = () => "Hello World!";
+
+This will ret
 
 
 # Strings

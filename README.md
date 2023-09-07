@@ -253,6 +253,7 @@ function myFunc(x, y) {
   return (x + y);
 }
 
+⋅⋅* func
 
 
 # Strings

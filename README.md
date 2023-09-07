@@ -235,7 +235,9 @@ while(condition){
         //code to be executed
     }while(condition);
 
-# Function
+# Function                                      // Resuable block of code that performs Specific tasks
+    Return Statement is only needed only if you want to print/use the value of variable outside function.
+     
 1. Function without parameters
 function myFunc(){
     // code to be executed 
@@ -248,7 +250,7 @@ function myFunc(a,b){
 
 Example:-
 function myFunc(x, y) {
-  return (x + y)
+  return (x + y);
 }
 
 

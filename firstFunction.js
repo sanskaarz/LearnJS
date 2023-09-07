@@ -7,4 +7,4 @@ function eligiblity(age){
     }
   }
   
-  eligiblity(prompt("enter age"));
+eligiblity(prompt("enter age"));

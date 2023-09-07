@@ -125,10 +125,13 @@ switch(var){
     break
 }
 
+To print in JS
 
-prompt()
-alert()
-console.log()
+1. prompt("output")                                             // Take input from user in prompt (In Launching)
+2. alert("output")                                              // Show Alert box (In Launching)
+3. console.log("output")                                        // Print output in console
+4. document.write("output")                                     // Print ouutput in HTML Document
+5. document.getElementById("demo") = "output"
 
 
 TypeCasting
@@ -239,6 +242,8 @@ Example:-
 function myFunc(x, y) {
   return (x + y)
 }
+
+
 
 # Strings
 
@@ -369,4 +374,4 @@ let array = []
 # Array Sorting
 
 1. namelist.sort()                                       // sorts an array alphabetically
-2. fruits.reverse();                                     // reverse the current array 
+2. fruits.reverse();                                     // reverse the current array

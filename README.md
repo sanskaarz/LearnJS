@@ -252,7 +252,9 @@ Example:-
 function myFunc(x, y) {
   return (x + y);
 }
-* hello 
+
+* hello
+- hello
 
 
 # Strings

@@ -267,7 +267,7 @@ hello = () => {
   return "Hello World!";
 }
 
-* - Arrow Functions Return Value by Default                // This works only when function has only one statement 
+- Arrow Functions Return Value by Default                // This works only when function has only one statement 
 hello = () => "Hello World!";
 
 

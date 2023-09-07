@@ -133,4 +133,3 @@ You can write code that can be used many time
 
 
 Strings are written inside double or sinle quotes. Numbers are written without quotes.
-<span style="color: red;">text</span>

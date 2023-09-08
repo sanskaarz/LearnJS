@@ -109,15 +109,18 @@ To access value from it we can use :
 /* Multiline Comment */
 
 # Conditional Statements
-1. 
+
+1. if
+``` 
 if(contition){
 
 }
 else (condition){
 
 }
+```
 
-2. Nesting
+2. Nested if
 ```
 if(contition){
 
@@ -133,6 +136,8 @@ else{
  condition? expression1:expression2;
 
 4. Switch Case
+
+```
 switch(var){
     case "1":
     result;
@@ -146,14 +151,15 @@ switch(var){
     result;
     break
 }
+```
 
-To print in JS
+# To print in JS
 
 1. prompt("output")                                             // Take input from user in prompt (In Launching)
 2. alert("output")                                              // Show Alert box (In Launching)
 3. console.log("output")                                        // Print output in console
-4. document.write("output")                                     // Print ouutput in HTML Document
-5. document.getElementById("demo") = "output"
+4. document.write("output")                                     // Print ouutput in Main page
+5. document.getElementById("demo") = "output"                   // Return output to HTML
 
 
 TypeCasting

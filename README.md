@@ -316,10 +316,11 @@ hello = () => "Hello World!";
 
 15. name.endsWith("")            //  check weather the string ends with specific value
 13. name.includes("")            //  check weather the string contain any specific value
-1. name.indexOf()                //  returns the index of  first occurrence the given string
- Example
-  * hello
-  - hello
+1. name.indexOf()                //  returns the index of first occurrence the given string
+* Example
+  * name.indexOf("s")
+  - name.indexOf("s" , 6)        // Start searching string from 6th index
+1. name.lastIndexOf()            //  returns the index of last occurrence the given string
 
 1. name.length()                  // To get the length of the string
 

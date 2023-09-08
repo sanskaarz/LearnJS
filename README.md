@@ -23,7 +23,7 @@ Harry !=(not equal) harry
 
 
 
-|	    Block scoped |	Hoisting	|    Reassignment	  |    Initialization |
+|	 |   Block scoped |	Hoisting	|    Reassignment	  |    Initialization |
 |---|---|---|---|
 let	  |  Yes	  |          No	    |    Yes	   |         Optional |
 var	  |  No	    |        Yes     |	  Yes	      |      Optional |

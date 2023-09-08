@@ -294,6 +294,7 @@ hello = () => "Hello World!";
 
 # Strings
 
+
 1. "Hello my value is " + a    //double quotes
 2. 'Hello my value is ' + a   //Single Quotes 
 3. `Hello my value is ${a}`    //Backticks     
@@ -307,7 +308,17 @@ hello = () => "Hello World!";
 
 
 # String Methods
-  
+
+1. name.at("index") = name["index"]                         // Return index charctor from string 
+6. name.charAt(index)                             // returns the character at a given index
+6. name.charCodeAt(index)                         // returns the unicode of character at a given index
+6. name.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
+
+15. name.endsWith("")            //  check weather the string ends with specific value
+13. name.includes("")            //  check weather the string contain any specific value
+1. name.indexOf()                //  returns the index of  first occurrence the given string
+
+* ret
 1. name.length()                  // To get the length of the string
 2. name.toUpperCase()
 3. name.toLowerCase()
@@ -322,8 +333,6 @@ hello = () => "Hello World!";
 
 5. name.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
 6. name.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
-6. name.charAt(index)                             // Extracts a returns the character at a specified index
-6. name.charCodeAt(index)                         // Extracts a returns the unicode of character at a specified index
 7. name.replace("old string", "new string")
 8. name.replaceAll("old string", "new string")
 9. name.concat();
@@ -338,9 +347,7 @@ hello = () => "Hello World!";
 10. name.trim()                  //  removes whitespace from both sides of a string
 11. name.trimStart()             //  removes whitespace from Start of a string
 12. name.trimEnd()               //  removes whitespace from End of a string
-13. name.includes("")            //  check weather the string contain any specific value
 14. name.startsWith("")          //  check weather the string starts with specific value
-15. name.endsWith("")            //  check weather the string ends with specific value
 16. name.split("separator");     //  String converted into Array, the separator is omitted
 
     Example:-

@@ -317,14 +317,13 @@ hello = () => "Hello World!";
 15. name.endsWith("")            //  check weather the string ends with specific value
 13. name.includes("")            //  check weather the string contain any specific value
 1. name.indexOf()                //  returns the index of  first occurrence the given string
-
-* h - ret
+* Example
+-  hello
+- hello
 
 1. name.length()                  // To get the length of the string
-* name 
-- name
-- 
-* - name
+
+
 2. name.toUpperCase()
 3. name.toLowerCase()
 4. name.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices

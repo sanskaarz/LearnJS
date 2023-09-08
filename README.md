@@ -22,10 +22,13 @@ Harry !=(not equal) harry
 - var = initialization is optional 
 
 
+
 |	    Block scoped |	Hoisting	|    Reassignment	  |    Initialization |
 let	  |  Yes	  |          No	    |    Yes	   |         Optional |
 var	  |  No	    |        Yes     |	  Yes	      |      Optional |
 const	 | Yes	  |          No	   |     No	      |      Required |
+
+
 
 
 

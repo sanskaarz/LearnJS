@@ -1,9 +1,8 @@
 <div align="center">
 	
-# LearnJS
+# [LearnJS](https://www.google.com)
 	
 </div>
-
 
 
 Variables

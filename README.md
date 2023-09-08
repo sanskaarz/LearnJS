@@ -320,10 +320,15 @@ hello = () => "Hello World!";
 * Example
   * name.indexOf("s")
   - name.indexOf("s" , 6)        // Start searching string from 6th index
-1. name.lastIndexOf()            //  returns the index of last occurrence the given string
+1. name.lastIndexOf()            // returns the index of last occurrence the given string
 
 1. name.length()                  // To get the length of the string
+1. name.match(/string/)           // If given string found then it returns the string
 
+* Example
+  - let text = "The rain in SPAIN stays mainly in the plain";
+    -   
+console.log(text.match(/ain/))
 
 
 2. name.toUpperCase()

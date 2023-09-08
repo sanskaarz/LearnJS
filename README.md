@@ -153,6 +153,7 @@ switch(var){
 }
 ```
 
+
 # To print in JS
 
 1. prompt("output")                                             // Take input from user in prompt (In Launching)

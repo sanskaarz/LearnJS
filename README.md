@@ -11,15 +11,15 @@ Types of Scopes
 - var
 - const
 
-variable is a containeor = stores in  RAM
+variable is a container = stores in  RAM
 
-varable names can start with $ or _ or letter ..... not number
+variable names can start with $ or _ or letter ..... not number
 
-Harry != harry
+Harry !=(not equal) harry
 
-let = initialization is optional
-cont = initialization is Required
-var = initialization is optional 
+- let = initialization is optional
+- cont = initialization is Required
+- var = initialization is optional 
 
 
 	    Block scoped	Hoisting	    Reassignment	      Initialization

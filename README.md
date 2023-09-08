@@ -335,7 +335,11 @@ hello = () => "Hello World!";
   - console.log(name.match(/ain/gi))          //Search globally + Case in-sensitive
     - Gives = ["ain", "AIN", "ain", "ain"]
 ```
-
+<ul>
+  <li>-1 if sorted before</li>
+  <li>1 if sorted after</li>
+  <li>0 if equal</li> 
+</ul>
 
 2. name.toUpperCase()
 3. name.toLowerCase()

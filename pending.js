@@ -23,5 +23,4 @@ else{
 
 
 // Event
-// localeCompare()
 // 

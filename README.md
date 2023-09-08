@@ -456,3 +456,4 @@ let array = []
 2. fruits.reverse();                                     // reverse the current array
 
 # Array Hoisting
+supported by var keyword only

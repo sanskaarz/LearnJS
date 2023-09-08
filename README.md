@@ -256,7 +256,7 @@ function myFunc(x, y) {
   return (x + y);
 }
 
-## Arrow Function
+### Arrow Function
 
 * After Arrow Function
 

@@ -326,6 +326,7 @@ hello = () => "Hello World!";
 1. name.match(/string/)           // If given string found then it returns the string
 
 * Example
+```
   - let name = "The rain in SPAIN stays mainly in the plain";
     - console.log(name.match(/ain/))              
       - Gives = ["ain"]
@@ -333,6 +334,7 @@ hello = () => "Hello World!";
       - Gives = ["ain", "ain", "ain"]
     - console.log(name.match(/ain/gi))          //Search globally + Case in-sensitive
       - Gives = ["ain", "AIN", "ain", "ain"]
+```
 
 
 2. name.toUpperCase()

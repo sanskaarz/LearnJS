@@ -60,7 +60,7 @@ var y; undefined =  kuch nai hai , Hona/Na hona Barabar hai
 
 console.log(typeof x); = Give the type of variable
 
-# Objects (These are same as Dictionary in Python) Used of Mapping , Key : Value Pairs
+# Objects                                      // (These are same as Dictionary in Python) Key : Value Pairs
 To access value from it we can use :
 1. objectname.key
 2. objectname["Keyname"]

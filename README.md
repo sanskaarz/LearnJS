@@ -1,6 +1,9 @@
-<div align="center"> 
-# LearnJS</div>
-JavaScript
+<div align="center">
+	
+# LearnJS
+	
+</div>
+
 
 
 Variables

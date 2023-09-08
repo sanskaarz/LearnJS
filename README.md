@@ -1,4 +1,4 @@
-<centre> LearnJS</centre>
+<div align="center"> LearnJS</div>
 JavaScript
 
 

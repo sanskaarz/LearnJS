@@ -21,6 +21,5 @@ else{
   }
 }
 
-// Arrow Function
 // Event
 // 

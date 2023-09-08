@@ -1,6 +1,6 @@
 <div align="center">
 	
-# [LearnJS](https://www.google.com)
+# [LearnJS](https://github.com/sanskaarz/LearnJS)
 	
 </div>
 

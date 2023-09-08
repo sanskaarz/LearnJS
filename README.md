@@ -307,7 +307,7 @@ hello = () => "Hello World!";
    "Hello\\World"               //   \\ = creates a double quote 
 
 
-# String Methods
+# [String Methods]("https://www.w3schools.com/jsref/jsref_obj_string.asp")
 
 1. name.at("index") = name["index"]                         // Return index charctor from string 
 6. name.charAt(index)                             // returns the character at a given index
@@ -323,6 +323,7 @@ hello = () => "Hello World!";
 1. name.lastIndexOf()            // returns the index of last occurrence the given string
 
 1. name.length()                  // To get the length of the string
+1. name.localeCompare(text2);       // Compare two strings - Returns -1 , 0 , 1
 1. name.match(/string/)           // If given string found then it returns the string
 
 * Example
@@ -334,12 +335,13 @@ hello = () => "Hello World!";
     - Gives = ["ain", "ain", "ain"]
   - console.log(name.match(/ain/gi))          //Search globally + Case in-sensitive
     - Gives = ["ain", "AIN", "ain", "ain"]
+
 ```
-<ul>
-  <li>-1 if sorted before</li>
-  <li>1 if sorted after</li>
-  <li>0 if equal</li> 
-</ul>
+1. name.padEnd(l, x)
+  - l = length of desired string
+  - x = string to be added to incerease length
+
+1. name.padStart(l, x)
 
 2. name.toUpperCase()
 3. name.toLowerCase()

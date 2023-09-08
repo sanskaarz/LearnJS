@@ -317,7 +317,7 @@ hello = () => "Hello World!";
 15. name.endsWith("")            //  check weather the string ends with specific value
 13. name.includes("")            //  check weather the string contain any specific value
 1. name.indexOf()                //  returns the index of  first occurrence the given string
-* Example
+ Example
   * hello
   - hello
 

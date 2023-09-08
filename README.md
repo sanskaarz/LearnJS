@@ -307,7 +307,7 @@ hello = () => "Hello World!";
    "Hello\\World"               //   \\ = creates a double quote 
 
 
-# [String Methods]("https://www.w3schools.com/jsref/jsref_obj_string.asp")
+# [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 1. name.at("index") = name["index"]                         // Return index charctor from string 
 6. name.charAt(index)                             // returns the character at a given index

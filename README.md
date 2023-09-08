@@ -436,6 +436,7 @@ let array = []
 10. namelist.flat()
 
 
+
     Example:-
     
     namelist = [[1,2],[3,[[[4]]]],[[5],6]]
@@ -454,3 +455,4 @@ let array = []
 1. namelist.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array
 
+# Array Hoisting

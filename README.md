@@ -118,7 +118,7 @@ else (condition){
 }
 
 2. Nesting
-"""
+```
 if(contition){
 
 }
@@ -128,7 +128,7 @@ else if (){
 else{
 
 }
-"""
+```
 3. Ternory Operator
  condition? expression1:expression2;
 

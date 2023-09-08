@@ -318,11 +318,12 @@ hello = () => "Hello World!";
 13. name.includes("")            //  check weather the string contain any specific value
 1. name.indexOf()                //  returns the index of  first occurrence the given string
 
-*  - ret
+* h - ret
 
 1. name.length()                  // To get the length of the string
 * name 
 - name
+- 
 * - name
 2. name.toUpperCase()
 3. name.toLowerCase()

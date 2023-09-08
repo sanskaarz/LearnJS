@@ -457,3 +457,4 @@ let array = []
 
 # Array Hoisting
 supported by var keyword only
+

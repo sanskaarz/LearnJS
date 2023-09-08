@@ -324,6 +324,7 @@ hello = () => "Hello World!";
 1. name.length()                  // To get the length of the string
 
 
+
 2. name.toUpperCase()
 3. name.toLowerCase()
 4. name.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices

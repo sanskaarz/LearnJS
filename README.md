@@ -327,7 +327,7 @@ hello = () => "Hello World!";
 
 * Example
   - let text = "The rain in SPAIN stays mainly in the plain";
-    -   
+    -   h
 console.log(text.match(/ain/))
 
 

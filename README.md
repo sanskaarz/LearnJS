@@ -462,6 +462,3 @@ supported by var keyword only
 # 
 
 
-
-IIFE
-It is a type of function in javascript

@@ -422,6 +422,7 @@ let array = []
 8. delete namelist[index of element]        // delete a element from array and makes a empty space there
 9. concat()                                 // Merge arrays
 
+
     Example:-
     1. 
     namelist = ["aa" , "bb" , 7]

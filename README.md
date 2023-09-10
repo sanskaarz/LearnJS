@@ -461,5 +461,7 @@ supported by var keyword only
 @sanskaarz
 # 
 
+
+
 IIFE
-It is  atype of fncyion n   js 
+It is a type of function in js

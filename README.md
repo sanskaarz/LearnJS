@@ -168,13 +168,13 @@ a = Number.parseInt(a); // Convert string to a number
 a = parseInt(a); // Convert string to a number                 // Latest
 
 
-# Loops 
-1. # for
+# Loops
+1. ### for
 for(initialize; condition ; increament){
   //code to be executed
 }
 
-2. # for in
+2. ### for in
 Iterates/Works over the properties/keys of an object
 Loop running count = Number of elemets in the object
 
@@ -225,7 +225,7 @@ Loop running count = Number of elemets in the object
   a
   r
 
-3. # for of
+3. ### for of
 Iterates/Works over the values of an iterable object
 
 Example:-
@@ -243,16 +243,18 @@ let name = "sanskar";
   a
   r
 
-4. # while
+4. ### while
 
 while(condition){
     // code to be executed
 }
 
-5. # do while
+5. ### do while
     do{
         //code to be executed
     }while(condition);
+
+
 
 # Function                                      // Resuable block of code that performs Specific tasks
     Return Statement is only needed only if you want to print/use the value of variable outside function.

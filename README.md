@@ -461,4 +461,5 @@ supported by var keyword only
 @sanskaarz
 # 
 
-
+IIFE
+It is a function in javascript.

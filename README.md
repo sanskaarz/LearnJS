@@ -440,7 +440,7 @@ let array = []
     Example:-
     
     namelist = [[1,2],[3,[[[4]]]],[[5],6]]
-
+2''
     Gives:- [1, 2, 3, 4, 5, 6]
 
 11. namelist.splice(x , y , "" , "" , "" , ..........)
@@ -458,3 +458,5 @@ let array = []
 # Array Hoisting
 supported by var keyword only
 
+@sanskaarz
+# 

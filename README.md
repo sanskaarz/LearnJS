@@ -457,12 +457,3 @@ let array = []
 
 1. namelist.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array
-
-# Array Hoisting
-supported by var keyword only
-
-@sanskaarz
-# 
-
-IIFE
-It is a function in javascript.

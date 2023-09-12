@@ -246,11 +246,11 @@ let name = "sanskar";
   r
 
 ### 4. while
-
+```
 while(condition){
     // code to be executed
 }
-
+```
 ### 5. do while
     do{
         //code to be executed

@@ -88,10 +88,10 @@ To access value from it we can use :
 
  # Comperision Operators
 
-= Assigns a value to variable
+= Assigns a value to variable              // Assignment Operator 
 == Equal to (does not checks the typeof variables)
 != Not Equal to (does not checks the typeof variables)
-=== Equal to 7 Equal type
+=== Equal value & Equal DataType
 !== Not Equal to & Not Equal Type
 >
 <
@@ -123,7 +123,7 @@ else (condition){
 
 2. Nested if
 ```
-if(contition){
+if(condition){
 
 }
 else if (){
@@ -133,7 +133,7 @@ else{
 
 }
 ```
-3. Ternory Operator
+3. Ternary Operator
  ```
  condition? expression1:expression2;
 ```
@@ -161,7 +161,7 @@ switch(var){
 1. prompt("output")                                             // Take input from user in prompt (In Launching)
 2. alert("output")                                              // Show Alert box (In Launching)
 3. console.log("output")                                        // Print output in console
-4. document.write("output")                                     // Print ouutput in Main page
+4. document.write("output")                                     // Print output in Main page
 5. document.getElementById("demo") = "output"                   // Return output to HTML
 
 
@@ -310,10 +310,9 @@ hello = () => "Hello World!";
    "Hello\"World"               //   \" = creates a double quote 
    "Hello\\World"               //   \\ = creates a double quote 
 
-
 # [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
-1. name.at("index") = name["index"]                         // Return index charctor from string 
+1. name.at("index") = name["index"]               // Return index charctor from string 
 6. name.charAt(index)                             // returns the character at a given index
 6. name.charCodeAt(index)                         // returns the unicode of character at a given index
 6. name.fromCharCode(CharCodeOfString);           // returns the string from unicode of character

@@ -134,8 +134,9 @@ else{
 }
 ```
 3. Ternory Operator
+ ```
  condition? expression1:expression2;
-
+```
 4. Switch Case
 
 ```

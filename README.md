@@ -114,10 +114,8 @@ To access value from it we can use :
 1. if
 ``` 
 if(contition){
-
 }
 else (condition){
-
 }
 ```
 
@@ -154,6 +152,7 @@ switch(var){
     break
 }
 ```
+
 
 
 # To print in JS

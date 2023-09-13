@@ -378,7 +378,7 @@ hello = () => "Hello World!";
     Example:-
     let text = "a,b,c,d,e,f";
     let myArray = text.split(",");
-    console.log(myArray[2];)
+    console.log(myArray[2])
 
     Gives:-
     c

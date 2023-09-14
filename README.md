@@ -311,7 +311,7 @@ hello = () => "Hello World!";
 
 # [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
-1. name.at("index") = name["index"]               // Return index charctor from string 
+1. name.at("index") OR name["index"]               // Return index charctor from string 
 6. name.charAt(index)                             // returns the character at a given index
 6. name.charCodeAt(index)                         // returns the unicode of character at a given index
 6. name.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
@@ -390,7 +390,7 @@ const array = []
 let array = []
 
 
-# Array Mathods
+# Array Methods
 
 1. namelist.length
 2. namelist.toString()                      // Convert to string

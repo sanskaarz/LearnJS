@@ -11,7 +11,7 @@ to copy an obj((
 ))
 
 Falsy ((
-    0 false undefined null NAN document.all
+    0 false undefined null NaN 
 ))
 Truthy ((
     all except falsy
@@ -29,6 +29,7 @@ loops((
         )
     )
 ))
+
 
 
 
@@ -112,7 +113,6 @@ Shift Assignment Operators (works on 32bit form of numbers) ()
     remove the left bit and add a 0 to the right side
 >>=	Right Shift Assignment Operator
     remove the right bit and add 0 to the left side
-
 
 
 

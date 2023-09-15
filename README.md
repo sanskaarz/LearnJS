@@ -311,7 +311,7 @@ hello = () => "Hello World!";
 
 # [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
-1. name.at(index) OR name[index]               // Return index charctor from string 
+1. name.at(index) OR name[index]                  // Return index charctor from string 
 6. name.charAt(index)                             // returns the character at a given index
 6. name.charCodeAt(index)                         // returns the unicode of character at a given index
 6. name.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
@@ -457,4 +457,4 @@ let array = []
 
 1. namelist.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array
-3. namelist.sort();                                      // 
+3. namelist.

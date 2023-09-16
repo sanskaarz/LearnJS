@@ -457,6 +457,5 @@ let array = []
 
 1. namelist.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array
-3. namelist
-
+3. 
 

@@ -161,7 +161,7 @@ switch(var){
 2. alert("output")                                              // Show Alert box (In Launching)
 3. console.log("output")                                        // Print output in console
 4. console.error("error message")                               // Print an error message in console
-4. console.warn("error message")                               // Print an error message in console
+4. console.warn("warning message")                               // Print an error message in console
 4. document.write("output")                                     // Print output in Main page
 5. document.getElementById("demo") = "output"                   // Return output to HTML
 

@@ -313,69 +313,69 @@ hello = () => "Hello World!";
 
 # [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
-1. name.at(index) OR name[index]                  // Return index charctor from string 
-6. name.charAt(index)                             // returns the character at a given index
-6. name.charCodeAt(index)                         // returns the unicode of character at a given index
-6. name.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
+1. strName.at(index) OR strName[index]                  // Return index charctor from string 
+6. strName.charAt(index)                             // returns the character at a given index
+6. strName.charCodeAt(index)                         // returns the unicode of character at a given index
+6. strName.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
 
-15. name.endsWith("")            //  check weather the string ends with specific value
-13. name.includes("")            //  check weather the string contain any specific value
-1. name.indexOf()                //  returns the index of first occurrence the given string
+15. strName.endsWith("")            //  check weather the string ends with specific value
+13. strName.includes("")            //  check weather the string contain any specific value
+1. strName.indexOf()                //  returns the index of first occurrence the given string
 * Example
-  * name.indexOf("s")
-  - name.indexOf("s" , 6)        // Start searching string from 6th index
-1. name.lastIndexOf()            // returns the index of last occurrence the given string
+  * strName.indexOf("s")
+  - strName.indexOf("s" , 6)        // Start searching string from 6th index
+1. strName.lastIndexOf()            // returns the index of last occurrence the given string
 
-1. name.length()                  // To get the length of the string
-1. name.localeCompare(text2);       // Compare two strings - Returns -1 , 0 , 1
-1. name.match(/string/)           // If given string found then it returns the string
+1. strName.length()                  // To get the length of the string
+1. strName.localeCompare(text2);       // Compare two strings - Returns -1 , 0 , 1
+1. strName.match(/string/)           // If given string found then it returns the string
 
 * Example
 ```
-  let name = "The rain in SPAIN stays mainly in the plain";
-  - console.log(name.match(/ain/))              
+  let strName = "The rain in SPAIN stays mainly in the plain";
+  - console.log(strName.match(/ain/))              
     - Gives = ["ain"]
-  - console.log(name.match(/ain/g))           //Search globally + Case sensitive
+  - console.log(strName.match(/ain/g))           //Search globally + Case sensitive
     - Gives = ["ain", "ain", "ain"]
-  - console.log(name.match(/ain/gi))          //Search globally + Case in-sensitive
+  - console.log(strName.match(/ain/gi))          //Search globally + Case in-sensitive
     - Gives = ["ain", "AIN", "ain", "ain"]
 
 ```
-1. name.padEnd(l, x)
+1. strName.padEnd(l, x)
   - l = length of desired string
   - x = string to be added to incerease length
 
-1. name.padStart(l, x)
+1. strName.padStart(l, x)
 
-2. name.toUpperCase()
-3. name.toLowerCase()
-4. name.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices
+2. strName.toUpperCase()
+3. strName.toLowerCase()
+4. strName.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices
     slice counts the blanks/spaces but not print them
   Examples:-
-  1. name.slice(7, 13);
-  2. name.slice(7, 13);
-  3. name.slice(7);               // extract the whole string from 7 to end
-  4. name.slice(-7);              // extract the whole string from 7(from end) to starting
-  5. name.slice(-7 , -13);        // extract the whole string from 7(from end) to 13(from end)
+  1. strName.slice("Starting index , "End.index");
+  2. strName.slice(7, 13);
+  3. strName.slice(7);               // extract the whole string from 7 to end
+  4. strName.slice(-7);              // extract the whole string from 7(from end) to starting
+  5. strName.slice(-7 , -13);        // ext \ract the whole string from 7(from end) to 13(from end)
 
-5. name.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
-6. name.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
-7. name.replace("old string", "new string")
-8. name.replaceAll("old string", "new string")
-9. name.concat();
+5. strName.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
+6. strName.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
+7. strName.replace("old string", "new string")
+8. strName.replaceAll("old string", "new string")
+9. strName.concat();
   Examples:-
-  let name = "sans";
-  let name2 = "kar";
-  1. console.log(name.concat(name2));
-  2. console.log(name.concat("kar"));
-  3. console.log(name.concat(name2 , "is hot"));
+  let strName = "sans";
+  let strName2 = "kar";
+  1. console.log(strName.concat(strName2));
+  2. console.log(strName.concat("kar"));
+  3. console.log(strName.concat(strName2 , "is hot"));
                   **OR**
-  3. console.log(name + name2 + " is a cool guy");
-10. name.trim()                  //  removes whitespace from both sides of a string
-11. name.trimStart()             //  removes whitespace from Start of a string
-12. name.trimEnd()               //  removes whitespace from End of a string
-14. name.startsWith("")          //  check weather the string starts with specific value
-16. name.split("separator");     //  String converted into Array, the separator is omitted
+  3. console.log(strName + strName2 + " is a cool guy");
+10. strName.trim()                  //  removes whitespace from both sides of a string
+11. strName.trimStart()             //  removes whitespace from Start of a string
+12. strName.trimEnd()               //  removes whitespace from End of a string
+14. strName.startsWith("")          //  check weather the string starts with specific value
+16. strName.split("separator");     //  String converted into Array, the separator is omitted
 
     Example:-
     let text = "a,b,c,d,e,f";
@@ -394,61 +394,61 @@ let array = []
 
 # Array Methods
 
-1. namelist.length
-2. namelist.toString()                      // Convert to string
-3. namelist.join()                          // Merge array items by Adding value in middle , converts Array to String 
+1. arrName.length
+2. arrName.toString()                      // Convert to string
+3. arrName.join()                          // Merge array items by Adding value in middle , converts Array to String 
 
     Example:-
-     namelist = ["aa" , "bb" , 7]
-     namelist.join("-") = Gives :- aa-bb-7
-     namelist.join("8") = Gives :- aa8bb87
+     arrName = ["aa" , "bb" , 7]
+     arrName.join("-") = Gives :- aa-bb-7
+     arrName.join("8") = Gives :- aa8bb87
 
-4. namelist.pop()                           // Removes last element of array
-5. namelist.push()                          // Insert new element to array (at the end) 
+4. arrName.pop()                           // Removes last element of array
+5. arrName.push()                          // Insert new element to array (at the end) 
 
     Example:-
-     namelist = ["aa" , "bb" , 7]
-     namelist.push("cc")
+     arrName = ["aa" , "bb" , 7]
+     arrName.push("cc")
 
      Gives:- ['aa', 'bb', 7, 'cc']
 
-6. namelist.shift()                         // removes first element of array
-7. namelist.unshift()                       // add a new elemnt to array (at the beginning)
+6. arrName.shift()                         // removes first element of array
+7. arrName.unshift()                       // add a new elemnt to array (at the beginning)
 
     Example:-
-     namelist = ["aa" , "bb" , 7]
-     namelist.unshift("cc")
+     arrName = ["aa" , "bb" , 7]
+     arrName.unshift("cc")
      
      Gives:- [ 'cc', 'aa', 'bb', 7 ]
 
-8. delete namelist[index of element]        // delete a element from array and makes a empty space there
+8. delete arrName[index of element]        // delete a element from array and makes a empty space there
 9. concat()                                 // Merge arrays
 
 
     Example:-
     1. 
-    namelist = ["aa" , "bb" , 7]
-    namelistt = ["cc" , 786]
-    namelisttt = ["bb" ,"$"]
-    let newlist  = namelist.concat(namelistt , namelisttt)
+    arrName = ["aa" , "bb" , 7]
+    arrName1 = ["cc" , 786]
+    arrName2 = ["bb" ,"$"]
+    let newlist  = arrName.concat(arrName1 , arrName2)
 
     Gives:- ['aa', 'bb', 7, 'cc', 786, 'bb', '$']
 
     2. 
-    namelist = ["aa" , "bb" , 7]
-    namelist.concat("niuuu")
+    arrName = ["aa" , "bb" , 7]
+    arrName.concat("niuuu")
 
-10. namelist.flat()
+10. arrName.flat()
 
 
 
     Example:-
     
-    namelist = [[1,2],[3,[[[4]]]],[[5],6]]
+    arrName = [[1,2],[3,[[[4]]]],[[5],6]]
 2''
     Gives:- [1, 2, 3, 4, 5, 6]
 
-11. namelist.splice(x , y , "" , "" , "" , ..........)
+11. arrName.splice(x , y , "" , "" , "" , ..........)
 
     x= index where element to be added, 
     y= how many elements should be removed,
@@ -457,5 +457,5 @@ let array = []
 
 # Array Sorting
 
-1. namelist.sort()                                       // sorts an array alphabetically
+1. arrName.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array

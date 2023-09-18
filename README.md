@@ -356,13 +356,17 @@ hello = () => "Hello World!";
   2. strName.slice(7, 13);
   3. strName.slice(7);               // extract the whole string from 7 to end
   4. strName.slice(-7);              // extract the whole string from 7(from end) to starting
-  5. strName.slice(-7 , -13);        // ext \ract the whole string from 7(from end) to 13(from end)
+  5. strName.slice(-7 , -13);        // extract the whole string from 7(from end) to 13(from end)
+  helloji its me("hello its me Devil over here )
+So , todays tasks areee......ae tu ja reee
+
 
 5. strName.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
 6. strName.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
 7. strName.replace("old string", "new string")
 8. strName.replaceAll("old string", "new string")
 9. strName.concat();
+10. 
   Examples:-
   let strName = "sans";
   let strName2 = "kar";

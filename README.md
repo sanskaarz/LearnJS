@@ -160,8 +160,10 @@ switch(var){
 1. prompt("output")                                             // Take input from user in prompt (In Launching)
 2. alert("output")                                              // Show Alert box (In Launching)
 3. console.log("output")                                        // Print output in console
-4. document.write("output")                                     // Print output in Main page
-5. document.getElementById("demo") = "output"                   // Return output to HTML
+4. console.error("error message")                               // Print an error message in console
+5. console.warn("warning message")                              // Print an warning message in console
+6. document.write("output")                                     // Print output in Main page
+7. document.getElementById("demo") = "output"                   // Return output to HTML
 
 
 TypeCasting
@@ -457,4 +459,3 @@ let array = []
 
 1. namelist.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array
-3. namelist

@@ -415,6 +415,21 @@ let array = []
 
      Gives:- ['aa', 'bb', 7, 'cc']
 5. arrName.pop()                           // Removes last element of array, Returns the removed element
+    Example:-
+    
+    1. Bad way
+    let arr = ["yogesh" , "nitin"]
+    let pushed = console.log(arr.push("snskr"))     // 3
+    console.log(pushed)                             // undefined
+    let popped = console.log(arr.pop())             // snskr
+    console.log(popped)                             // undefined
+
+    2. Good Way
+    let arr = ["yogesh" , "nitin"]
+    let pushed = arr.push("snskr")
+    console.log(pushed)                             // 3
+    let popped = arr.pop()
+    console.log(popped)                             // snskr
 
 6. arrName.shift()                         // removes first element of array
 7. arrName.unshift()                       // add a new elemnt to array (at the beginning)

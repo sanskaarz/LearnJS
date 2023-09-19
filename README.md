@@ -407,14 +407,14 @@ let array = []
      arrName.join("-") = Gives :- aa-bb-7
      arrName.join("8") = Gives :- aa8bb87
 
-4. arrName.pop()                           // Removes last element of array
-5. arrName.push()                          // Insert new element to array (at the end) 
+4. arrName.push()                          // Insert new element to array (at the end),Returns the length of the array.
 
     Example:-
      arrName = ["aa" , "bb" , 7]
      arrName.push("cc")
 
      Gives:- ['aa', 'bb', 7, 'cc']
+5. arrName.pop()                           // Removes last element of array, Returns the removed element
 
 6. arrName.shift()                         // removes first element of array
 7. arrName.unshift()                       // add a new elemnt to array (at the beginning)

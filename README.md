@@ -436,6 +436,7 @@ let array = []
     Example:-
      arrName = ["aa" , "bb" , 7]
      arrName.unshift("cc")
+     helllo ji its me sanskar gupta 
      
      Gives:- [ 'cc', 'aa', 'bb', 7 ]
 
@@ -472,8 +473,10 @@ let array = []
     y= how many elements should be removed,
     ""= new elements
 
+12. arr.includes()                                       // checks whether the argument element is exist in array or not.
+    Returns, True or False.
 
 # Array Sorting
 
 1. arrName.sort()                                       // sorts an array alphabetically
-2. fruits.reverse();                                     // reverse the current array
+2. fruits.reverse();                                    // reverse the current array

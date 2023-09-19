@@ -431,9 +431,8 @@ let array = []
     let popped = arr.pop()
     console.log(popped)                             // snskr
 
-6. arrName.shift()                         // removes first element of array
-7. arrName.unshift()                       // add a new elemnt to array (at the beginning)
-
+6. arrName.shift()                         // removes first element of array, returns the removed element 
+7. arrName.unshift()                       // add a new elemnt to array (at the beginning), returns the new array length
     Example:-
      arrName = ["aa" , "bb" , 7]
      arrName.unshift("cc")
@@ -443,7 +442,7 @@ let array = []
 8. delete arrName[index of element]        // delete a element from array and makes a empty space there
 9. concat()                                 // Merge arrays
 
-
+ 
     Example:-
     1. 
     arrName = ["aa" , "bb" , 7]

@@ -19,3 +19,4 @@ output.push(arr[i])
 console.log(output)
 
 // Using reverse()
+arr.reverse()

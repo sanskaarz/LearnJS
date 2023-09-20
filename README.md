@@ -314,7 +314,7 @@ hello = () => "Hello World!";
 # [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 1. strName.at(index) OR strName[index]                  // Return index charctor from string 
-6. strName.charAt(index)                             // returns the character at a given index
+6. strName.charAt(index)                             // returns the character at a given index // Better option
 6. strName.charCodeAt(index)                         // returns the unicode of character at a given index
 6. strName.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
 

@@ -178,8 +178,8 @@ for(initialize; condition ; increment){
 }
 
 ### 2. for in
-Iterates/Works over the properties/keys of an object
-Loop running count = Number of elemets in the object
+Iterates/Works over the values of an object
+Loop running count = Number of elements in the object
 
   Example 1 :-
 
@@ -189,29 +189,20 @@ Loop running count = Number of elemets in the object
     bag : "BAsta",
     mobile : "Phone"
   };
+  <!-- (let anyword in dict) = It stores all the values of dict in anyword -->
 
-  1. To print all the elements of object as an object 4 times
-  for (let anyword in dict){
-    console.log(dict);
-  }
-
-  2. To print all the values of elements of object
+  1. To print all the values of elements of object
 
   for (let anyword in dict){
     console.log(anyword);
   }
 
-  3. To print all the keys of elements of object
+  2. To print all the keys of elements of object
 
   for (let anyword in dict){
     console.log(dict[anyword]);
   }
-              **OR**
-  for (let anyword in dict){
-    console.log(dict.anyword);
-  }
 
-  let anyword in dict = It stores all the values of dict in anyword
 
   Example 2 :-
   let name = "sanskar";
@@ -245,6 +236,12 @@ let name = "sanskar";
   k
   a
   r
+
+  Example2:-
+  let name = ["s","a","n","s","k","a","r"]
+  for(let i of name){
+    console.log(i)
+  }
 
 ### 4. while
 ```

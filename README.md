@@ -173,7 +173,7 @@ a = parseInt(a); // Convert string to a number                 // Latest
 
 # Loops
 ### 1. for
-for(initialize; condition ; increament){
+for(initialize; condition ; increment){
   //code to be executed
 }
 
@@ -341,6 +341,7 @@ hello = () => "Hello World!";
     - Gives = ["ain", "AIN", "ain", "ain"]
 
 ```
+
 1. strName.padEnd(l, x)
   - l = length of desired string
   - x = string to be added to incerease length

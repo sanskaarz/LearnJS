@@ -25,5 +25,6 @@
 
 
 
-var obj = {p:5};
-var obj1 = {...obj}
+// var obj = {p:5};
+// var obj1 = {...obj}
+

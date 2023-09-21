@@ -20,3 +20,15 @@ console.log(output)
 
 // Using reverse()
 arr.reverse()
+
+
+
+// Using For Of loop
+
+
+let string = "Sanskar"
+let str = ""
+for(let x of string){
+  str =  x+ str
+}
+console.log(str)

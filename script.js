@@ -1,4 +1,4 @@
 let todo=[];
 
-let item = prompt("Enter");
+let item = prompt("select option");
 

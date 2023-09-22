@@ -181,9 +181,8 @@ for(initialize; condition ; increment){
 Iterates/Works over the values of an object
 Loop running count = Number of elements in the object
 
-  Example 1 :-
-
-  const dict = {
+    Example:-
+    const dict = {
     water : "pani",
     lens :"Chasma",
     bag : "BAsta",
@@ -202,7 +201,6 @@ Loop running count = Number of elements in the object
   for (let anyword in dict){
     console.log(dict[anyword]);
   }
-
 
   Example 2 :-
   let name = "sanskar";
@@ -324,7 +322,7 @@ hello = () => "Hello World!";
 1. strName.lastIndexOf()            // returns the index of last occurrence the given string
 
 1. strName.length()                  // To get the length of the string
-1. strName.localeCompare(text2);       // Compare two strings - Returns -1 , 0 , 1
+1. strName.localeCompare(text2);     // Compare two strings - Returns -1 , 0 , 1
 1. strName.match(/string/)           // If given string found then it returns the string
 
 * Example
@@ -460,9 +458,9 @@ let array = []
 
 
     Example:-
-    
+    ```
     arrName = [[1,2],[3,[[[4]]]],[[5],6]]
-2''
+    ```
     Gives:- [1, 2, 3, 4, 5, 6]
 
 11. arrName.splice(x , y , "" , "" , "" , ..........)

@@ -190,13 +190,13 @@ Loop running count = Number of elements in the object
   };
   <!-- (let anyword in dict) = It stores all the values of dict in anyword -->
 
-  1. To print all the values of elements of object
+  1. To print all the keys of elements of object
 
   for (let anyword in dict){
     console.log(anyword);
   }
 
-  2. To print all the keys of elements of object
+  2. To print all the values of elements of object
 
   for (let anyword in dict){
     console.log(dict[anyword]);

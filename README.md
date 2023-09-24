@@ -295,12 +295,6 @@ hello = () => "Hello World!";
 
 
 
-
-
-
-
-
-
 # Strings
 
 

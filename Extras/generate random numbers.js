@@ -1,6 +1,9 @@
 console.log(Math.floor(Math.random() * x) + y)
+// [y, x+y)
 // x+y = max number 
-// y= from where + 1
+// y= from where
+
+
 
 
 

@@ -1,6 +1,5 @@
-console.log(Math.floor(Math.random() *x) +y)
-
-// x = how much numbers
+console.log(Math.floor(Math.random() * x) + y)
+// x+y = max number 
 // y= from where + 1
 
 

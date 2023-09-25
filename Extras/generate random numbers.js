@@ -11,6 +11,5 @@ console.log(Math.floor(Math.random() * x) + y)
 
 console.log(Math.floor(Math.random() *5) +21)
 
-
 // from 86 to 92
 console.log(Math.floor(Math.random() *7) +86)

@@ -254,13 +254,14 @@ while(condition){
 
 
 
-# Function                                      // Resuable block of code that performs Specific tasks
+# Function                                      // Reusable block of code that performs Specific tasks
     Return Statement is only needed only if you want to print/use the value of variable outside function.
      
 1. Function without parameters
-function myFunc(){
+function funcName(){
     // code to be executed
 }
+funcName() //calling the function to use it
 
 2. Function with parameters
 function myFunc(a,b){
@@ -276,18 +277,18 @@ function myFunc(x, y) {
 
 * After Arrow Function
 
-hello = function() {
+funcName = function() {
   return "Hello World!";
 }
 
 * Before Arrow Function
 
-hello = () => {
+funcName = () => {
   return "Hello World!";
 }
 
 * - Arrow Functions Return Value by Default                // This works only when function has only one statement 
-hello = () => "Hello World!";
+funcName = () => "Hello World!";
 
 
 # Strings

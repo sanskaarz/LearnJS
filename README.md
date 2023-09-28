@@ -276,20 +276,22 @@ function myFunc(x, y) {
 ### Arrow Function
 
 * After Arrow Function
-
+```
 funcName = function() {
   return "Hello World!";
 }
+```
 
 * Before Arrow Function
-
+```
 funcName = () => {
   return "Hello World!";
 }
-
+```
 * - Arrow Functions Return Value by Default                // This works only when function has only one statement 
+```
 funcName = () => "Hello World!";
-
+```
 
 # Strings
 

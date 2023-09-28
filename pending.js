@@ -20,7 +20,3 @@ else{
     console.log("You have entered a correct number");
   }
 }
-
-
-// Event
-// 

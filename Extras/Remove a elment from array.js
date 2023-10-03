@@ -1,5 +1,5 @@
 let arr = [1, 2, 3, 4, 5, 6, 2, 3]
-let num = parseInt(prompt("Enter the number, u want to remove"))
+let num = prompt("Enter the number, u want to remove")
 
 // Method 1
 let arrNew = []

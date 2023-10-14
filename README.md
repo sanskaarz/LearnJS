@@ -295,7 +295,6 @@ funcName = () => "Hello World!";
 
 # Strings
 
-
 1. "Hello my value is " + a    //double quotes
 2. 'Hello my value is ' + a   //Single Quotes 
 3. `Hello my value is ${a}`    //Backticks     

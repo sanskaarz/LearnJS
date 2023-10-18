@@ -155,6 +155,7 @@ switch(var){
 
 
 
+
 # To print in JS
 
 1. prompt("output")                                             // Take input from user in prompt (In Launching)
@@ -295,7 +296,6 @@ funcName = () => "Hello World!";
 
 # Strings
 
-
 1. "Hello my value is " + a    //double quotes
 2. 'Hello my value is ' + a   //Single Quotes 
 3. `Hello my value is ${a}`    //Backticks     
@@ -387,6 +387,7 @@ So , todays tasks areee......ae tu ja reee
     c
 
 
+
 # Arrays      DataType = objects
 
 const array = []
@@ -455,9 +456,6 @@ let array = []
     arrName.concat("niuuu")
 
 10. arrName.flat()
-
-
-
     Example:-
     ```
     arrName = [[1,2],[3,[[[4]]]],[[5],6]]
@@ -478,3 +476,4 @@ let array = []
 1. namelist.sort()                                       // sorts an array alphabetically
 2. fruits.reverse();                                     // reverse the current array
 
+2. fruits.reverse();                                    // reverse the current array

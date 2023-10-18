@@ -475,6 +475,6 @@ let array = []
 
 # Array Sorting
 
-1. arrName.sort()                                       // sorts an array alphabetically
+1. namelist.sort()                                       // sorts an array alphabetically
+2. fruits.reverse();                                     // reverse the current array
 
-2. fruits.reverse();                                    // reverse the current array

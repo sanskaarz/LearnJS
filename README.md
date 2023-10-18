@@ -456,9 +456,6 @@ let array = []
     arrName.concat("niuuu")
 
 10. arrName.flat()
-
-
-
     Example:-
     ```
     arrName = [[1,2],[3,[[[4]]]],[[5],6]]

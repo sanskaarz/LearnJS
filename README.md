@@ -477,4 +477,3 @@ let array = []
 2. fruits.reverse();                                     // reverse the current array
 
 2. fruits.reverse();                                    // reverse the current array
-

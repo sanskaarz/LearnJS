@@ -24,6 +24,7 @@ Harry !=(not equal) harry
 - var = initialization is optional 
 
 
+
 <div align="center">
 
 |	 |   Block scoped |	Hoisting	|    Reassignment	  |    Initialization |

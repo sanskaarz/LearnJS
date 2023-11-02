@@ -44,6 +44,7 @@ const	 | Yes	  |          No	   |     No	      |      Required |
 
 
 
+
 # 7 Premitive DataTypes
 
 N - null

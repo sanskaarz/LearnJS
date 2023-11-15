@@ -1,3 +1,4 @@
+
 <div align="center">
 	
 # [LearnJS](https://github.com/sanskaarz/LearnJS)
@@ -24,6 +25,7 @@ Harry !=(not equal) harry
 - let = initialization is optional
 - cont = initialization is Required
 - var = initialization is optional 
+
 
 
 

@@ -38,7 +38,6 @@ Harry !=(not equal) harry
 
 
 
-
 <div align="center">
 
 |	 |   Block scoped |	Hoisting	|    Reassignment	  |    Initialization |

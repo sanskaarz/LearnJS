@@ -19,7 +19,6 @@ Types of Scopes
 
 
 
-
 variable is a container = stores in  RAM
 
 variable names can start with $ or _ or letter ..... not number

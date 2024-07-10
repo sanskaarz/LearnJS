@@ -6,470 +6,472 @@
 </div>
 
 ## Variables
-- variable is a container = stores in  RAM
-- variable names can start with $ or _ or letter ..... not number
-- Harry !=(not equal) harry
+- A variable is a container that stores data in RAM.
+- Variable names can start with `$`, `_`, or a letter but not a number.
+- `Harry` is not equal to `harry`.
 
-- Types of Scopes
-  1. let
-  2. var
-  3. const
+### Types of Scopes
+1. `let`
+2. `var`
+3. `const`
 
-  - let = initialization is optional
-  - cont = initialization is Required
-  - var = initialization is optional 
+- `let`: Initialization is optional.
+- `const`: Initialization is required.
+- `var`: Initialization is optional.
 
 <div align="center">
 
-|	  |   Block scoped |	Hoisting	|    Reassignment	  |    Initialization |
-|---|---|---|---|---|
-let	  |  Yes	  |          No	    |    Yes	   |         Optional |
-var	  |  No	    |        Yes     |	  Yes	      |      Optional |
-const	 | Yes	  |          No	   |     No	      |      Required |
+|       | Block Scoped | Hoisting | Reassignment | Initialization |
+|-------|---------------|----------|--------------|----------------|
+| `let` | Yes           | No       | Yes          | Optional       |
+| `var` | No            | Yes      | Yes          | Optional       |
+| `const`| Yes          | No       | No           | Required       |
 
 </div>
 
-# Primitive DataTypes
-# Primitive DataTypes
-  1. null
-  2. number
-  3. symbol
-  4. string
-  5. boolean
-  6. bigint
-  7. undefined
-- Examles :-
-  - let a = null;
-  - let b = 345;
-  - let c = true; // can also be false
-  - let d = BigInt("567") + BigInt("3")
-  - let e = "Harry"
-  - let f = Symbol("I am a symbol")
-  - let g;
+## Primitive Data Types
+1. `null`
+2. `number`
+3. `symbol`
+4. `string`
+5. `boolean`
+6. `bigint`
+7. `undefined`
 
-var x = null; null = kuch to hai
-var y; undefined =  kuch nai hai , Hona/Na hona Barabar hai
-
-
-console.log(typeof x); = Give the type of variable
-
-# Objects   <!--(These are same as Dictionary in Python) Key : Value Pairs-->
-- To access value from it we can use :
-1. objectname.key
-2. objectname["Keyname"]
-# Arithmetic Operators
- - \+
- - \-
- - \*
- - **
- - /
- - %
- - ++
- - \--
-
- # Assignment Opeartors
- - =
- - +=
- - -=
- - /=
- - %=
- - *=
- - **=
-
- # Comparision Operators
-- = Assigns a value to variable              // Assignment Operator 
-- == Equal to (does not checks the typeof variables)
-- != Not Equal to (does not checks the typeof variables)
-- === Equal value & Equal DataType
-- !== Not Equal to & Not Equal Type
-  1. \>
-  2. <
-  3. \>=
-  4. <=
-
-# Logical Operators
-- &&  Logical and 
-- ||  Logical or
-- !   Logical not
-
-# Comments in JS
-- // Singel line comment
-- /* Multiline Comment */
-
-# Conditional Statements
-1. if
-```js 
-if(condition){
-
-}
-else (condition){
-
-}
-```
-2. Nested ifs
-```js
-if(condition){
-
-}
-else if (condition){
-
-}
-else{
-
-}
-```
-3. Ternary Operator
- ```js
- condition? expression1:expression2;
-```
-4. Switch Case
-```js
-switch(var){
-    case "1":
-    result;
-    break
-
-    case "2":
-    result;
-    break
-
-    case "3":
-    result;
-    break
-}
+### Examples:
+```javascript
+let a = null;
+let b = 345;
+let c = true; // can also be false
+let d = BigInt("567") + BigInt("3");
+let e = "Harry";
+let f = Symbol("I am a symbol");
+let g;
 ```
 
-# To print in JS
-1. prompt("output")                                             // Take input from user in prompt (In Launching)
-2. alert("output")                                              // Show Alert box (In Launching)
-3. console.log("output")                                        // Print output in console
-4. console.error("error message")                               // Print an error message in console
-5. console.warn("warning message")                              // Print an warning message in console
-6. document.write("output")                                     // Print output in Main page
-7. document.getElementById("demo") = "output"                   // Return output to HTML
+### Type of a Variable
+```javascript
+console.log(typeof a); // Output: object
+```
 
+## Objects
+Objects in JavaScript are similar to dictionaries in Python (key-value pairs).
 
-# TypeCasting
-- convert from one type to the other <!-- This part requires research on implicit and explicit typecasting-->
-```js
+### Accessing Object Values
+1. `objectname.key`
+2. `objectname["Keyname"]`
+
+## Operators
+
+### Arithmetic Operators
+- `+`, `-`, `*`, `**`, `/`, `%`, `++`, `--`
+
+### Assignment Operators
+- `=`, `+=`, `-=`, `/=`, `%=`, `*=`, `**=`
+
+### Comparison Operators
+- `=`: Assignment operator.
+- `==`: Equal to (does not check the type).
+- `!=`: Not equal to (does not check the type).
+- `===`: Equal value and equal type.
+- `!==`: Not equal value and not equal type.
+- `>`, `<`, `>=`, `<=`
+
+### Logical Operators
+- `&&`: Logical AND
+- `||`: Logical OR
+- `!`: Logical NOT
+
+## Comments in JavaScript
+```javascript
+// Single line comment
+
+/* 
+   Multi-line comment 
+*/
+```
+
+## Conditional Statements
+1. **if-else**
+   ```javascript
+   if (condition) {
+       // code to be executed if condition is true
+   } else {
+       // code to be executed if condition is false
+   }
+   ```
+
+2. **Nested if-else**
+   ```javascript
+   if (condition1) {
+       // code to be executed if condition1 is true
+   } else if (condition2) {
+       // code to be executed if condition2 is true
+   } else {
+       // code to be executed if both conditions are false
+   }
+   ```
+
+3. **Ternary Operator**
+   ```javascript
+   condition ? expression1 : expression2;
+   ```
+
+4. **Switch Case**
+   ```javascript
+   switch (variable) {
+       case "1":
+           // code to be executed if variable is "1"
+           break;
+       case "2":
+           // code to be executed if variable is "2"
+           break;
+       default:
+           // code to be executed if variable doesn't match any case
+   }
+   ```
+
+## Output Methods
+1. `prompt("output")`: Displays a dialog box with a message and an input field for the user.
+2. `alert("output")`: Displays an alert box with a message and an OK button.
+3. `console.log("output")`: Prints a message to the browser console for debugging.
+4. `console.error("error message")`: Prints an error message to the browser console.
+5. `console.warn("warning message")`: Prints a warning message to the browser console.
+6. `document.write("output")`: Writes content directly into the HTML document.
+7. `document.getElementById("demo").innerHTML = "output"`: Sets the content of an HTML element with the specified id.
+
+## TypeCasting
+Typecasting is converting a value from one data type to another. It can be implicit or explicit.
+
+### Examples:
+```javascript
+let a = "123";
 a = Number.parseInt(a); // Convert string to a number
-a = parseInt(a); // Convert string to a number    
+a = parseInt(a); // Convert string to a number
 ```
 
-# Loops
+## Loops
 ### 1. for
-```js
-for(initialize; condition ; increment){
-  //code to be executed
+```javascript
+for (initialize; condition; increment) {
+  // code to be executed
 }
 ```
 
-### 2. for in
-- Iterates/Works over the values of an object
-- Loop running count = Number of elements in the object
-- Example:-
-```js
+### 2. for-in
+Iterates over the properties of an object.
+```javascript
 const dict = {
-  water : "pani",
-  lens :"Chasma",
-  bag : "BAsta",
-  mobile : "Phone"
+  water: "pani",
+  lens: "chasma",
+  bag: "basta",
+  mobile: "phone"
 };
+
+for (let key in dict) {
+  console.log(key); // prints keys
+  console.log(dict[key]); // prints values
+}
 ```
-<!-- (let anyword in dict) = It stores all the values of dict in anyword -->
 
-1. To print all the keys of elements of object
-  ```js
-  for (let anyword in dict){
-    console.log(anyword);
-  }
-  ```
-
-  2. To print all the values of elements of object
-  - Example 1 :
-  ```js
-  for (let anyword in dict){
-    console.log(dict[anyword]);
-  }
-  ```
-
-  - Example 2 :-
-  ```js
-  let name = "sanskar";
-    for(let a in name){
-      console.log(name[a])
-    }
-  ```
-  - Gives:- 
-  ```
-  s
-  a
-  n
-  s
-  k
-  a
-  r
-  ```
-
-### 3. for of
-- Iterates/Works over the values of an iterable object
-- Example 1:
-```js
+### 3. for-of
+Iterates over the values of an iterable object.
+```javascript
 let name = "sanskar";
-  for(let a of name){
-    console.log(a)
-  }
-```
-
-- Gives:- 
-``` 
-s
-a
-n
-s
-k
-a
-r
-```
-- Example2:-
-```js
-  let name = ["s","a","n","s","k","a","r"]
-  for(let i of name){
-    console.log(i)
-  }
+for (let char of name) {
+  console.log(char); // prints each character
+}
 ```
 
 ### 4. while
-```js
-while(condition){
-    // code to be executed
-}
-
-```
-### 5. do while
-```js 
-  do{
-      //code to be executed
-  }while(condition);
-```
-
-# Function                                      
-- Reusable block of code that performs Specific tasks
-- Return Statement is only needed only if you want to print/use the value of variable outside function.
-     
-1. Function without parameters
-```js
-function funcName(){
-    // code to be executed
-}
-funcName() //calling the function to use it
-```
-2. Function with parameters
-```js
-function myFunc(a,b){
-    // code to be executed having the use of parameters
+```javascript
+while (condition) {
+  // code to be executed
 }
 ```
 
-- Example:-
-```js
-function myFunc(x, y) {
-  return (x + y);
+### 5. do-while
+```javascript
+do {
+  // code to be executed
+} while (condition);
+```
+
+## Functions
+Reusable blocks of code that perform specific tasks.
+
+### Function without Parameters
+```javascript
+function funcName() {
+  // code to be executed
+}
+funcName(); // calling the function
+```
+
+### Function with Parameters
+```javascript
+function myFunc(a, b) {
+  return a + b;
 }
 ```
 
 ### Arrow Function
-* Before Arrow Function
-```js
+```javascript
+// Before Arrow Function
 funcName = function() {
   return "Hello World!";
 }
-```
-* After Arrow Function
-```js
-funcName = () => {
-  return "Hello World!";
-}
-```
-* Arrow Functions Return Value by Default &nbsp; // This works only when function has only one statement 
-```js
+
+// After Arrow Function
 funcName = () => "Hello World!";
 ```
 
-# Strings
-1. "Hello my value is " + a    //double quotes
-2. 'Hello my value is ' + a   //Single Quotes 
-3. \`Hello my value is ${a}`    //Backticks     
-    //Template Literals = We can add variables to strings using template literals  
-4. Escape Sequences (length of these are 1 in total)
-   - "Hello\nWorld"               //   \n = creates a new line
-   - "Hello\tWorld"               //   \t = creates a tab
-   - "Hello\'World"               //   \' = creates a single quote 
-   - "Hello\"World"               //   \" = creates a double quote 
-   - "Hello\\World"               //   \\ = creates a double quote 
+## Strings
+1. `"Hello my value is " + a` // double quotes
+2. `'Hello my value is ' + a` // single quotes
+3. ``Hello my value is ${a}`` // backticks (template literals)
 
-# [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
-1. strName.at(index) OR strName[index]                  // Return index charctor from string 
-2. strName.charAt(index)                             // returns the character at a given index // Better option
-3. strName.charCodeAt(index)                         // returns the unicode of character at a given index
-4. strName.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
-5. strName.endsWith("")            //  check weather the string ends with specific value
-6. strName.includes("")            //  check weather the string contain any specific value
-7. strName.indexOf()                //  returns the index of first occurrence the given string
-* Example
-  * strName.indexOf("s")
-  - strName.indexOf("s" , 6)        // Start searching string from 6th index
-8. strName.lastIndexOf()            // returns the index of last occurrence the given string
-9. strName.length()                  // To get the length of the string
-10. strName.localeCompare(text2);     // Compare two strings - Returns -1 , 0 , 1
-11. strName.match(/string/)           // If given string found then it returns the string
+### Escape Sequences
+- `\n`: New line
+- `\t`: Tab
+- `\'`: Single quote
+- `\"`: Double quote
+- `\\`: Backslash
 
-* Example
-```js
-  let strName = "The rain in SPAIN stays mainly in the plain";
-  - console.log(strName.match(/ain/))              
-    //- Gives = ["ain"]
-  - console.log(strName.match(/ain/g))           //Search globally + Case sensitive
-    //- Gives = ["ain", "ain", "ain"]
-  - console.log(strName.match(/ain/gi))          //Search globally + Case in-sensitive
-    //- Gives = ["ain", "AIN", "ain", "ain"]
+### String Methods
+- `strName.charAt(index)` or `strName[index]`: Returns the character at the specified index.
+- `strName.charCodeAt(index)`: Returns the Unicode value of the character at the specified index.
+- `String.fromCharCode(CharCodeOfString)`: Returns a string from the Unicode value.
+- `strName.endsWith("text")`: Checks if the string ends with a specific value.
+- `strName.includes("text")`: Checks if the string contains a specific value.
+- `strName.indexOf("text")`: Returns the index of the first occurrence of the given string.
+- `strName.lastIndexOf("text")`: Returns the index of the last occurrence of the given string.
+- `strName.length`: Returns the length of the string.
+- `strName.localeCompare("text2")`: Compares two strings and returns -1, 0, or 1.
+- `strName.match(/text/)`: Returns the matched string if found.
+
+### Example:
+```javascript
+let strName = "Hello World";
+console.log(strName.charAt(4)); // Output: "o"
+console.log(strName.charCodeAt(6)); // Output: 87
+console.log(String.fromCharCode(72)); // Output: "H"
+console.log(strName.endsWith("World")); // Output: true
+console.log(strName.includes("lo")); // Output: true
+console.log(strName.indexOf("o")); // Output: 4
+console.log(strName.lastIndexOf("o")); // Output: 7
+console.log(strName.length); // Output: 11
+console.log(strName.localeCompare("Hello")); // Output: 1
+console.log(strName.match(/World/)); // Output: ["World"]
 ```
 
-1. strName.padEnd(l, x)
-  - l = length of desired string
-  - x = string to be added to incerease length
+### Splitting a String into an Array
+```javascript
+let text = "a,b,c,d,e,f";
+let myArray = text.split(",");
+console.log(myArray[2]); // Output: "c"
+```
 
-1. strName.padStart(l, x)
+## Arrays
+- `const array = []`
+- `let array = []`
 
-2. strName.toUpperCase()
-3. strName.toLowerCase()
-4. strName.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices
-    slice counts the blanks/spaces but not print them
-  Examples:-
-  1. strName.slice("Starting index , "End.index");
-  2. strName.slice(7, 13);
-  3. strName.slice(7);               // extract the whole string from 7 to end
-  4. strName.slice(-7);              // extract the whole string from 7(from end) to starting
-  5. strName.slice(-7 , -13);        // extract the whole string from 7(from end) to 13(from end)
-  helloji its me("hello its me Devil over here )
-So , todays tasks areee......ae tu ja reee
+### Array Methods
+1. **`push()`**
+   - Adds one or more elements to the end of an array and returns the new length.
+   ```javascript
+   let arr = [1, 2, 3];
+   arr.push(4);
+   console.log(arr); // [1, 2, 3, 4]
+   ```
 
+2. **`pop()`**
+   - Removes the last element from an array and returns that element.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.pop();
+   console.log(arr); // [1, 2, 3]
+   ```
 
-5. strName.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
-6. strName.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
-7. strName.replace("old string", "new string")
-8. strName.replaceAll("old string", "new string")
-9. strName.concat();
-10. 
-  Examples:-
-  let strName = "sans";
-  let strName2 = "kar";
-  1. console.log(strName.concat(strName2));
-  2. console.log(strName.concat("kar"));
-  3. console.log(strName.concat(strName2 , "is hot"));
-                  **OR**
-  3. console.log(strName + strName2 + " is a cool guy");
-10. strName.trim()                  //  removes whitespace from both sides of a string
-11. strName.trimStart()             //  removes whitespace from Start of a string
-12. strName.trimEnd()               //  removes whitespace from End of a string
-14. strName.startsWith("")          //  check weather the string starts with specific value
-16. strName.split("separator");     //  String converted into Array, the separator is omitted
-- Example:-
-  ```js
-    let text = "a,b,c,d,e,f";
-    let myArray = text.split(",");
-    console.log(myArray[2])
-  ```
-- Gives:-
-  ```
-  c
-  ```
+3. **`shift()`**
+   - Removes the first element from an array and returns that element.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.shift();
+   console.log(arr); // [2, 3, 4]
+   ```
 
-# Arrays      DataType = objects
-- const array = []
-- let array = []
+4. **`unshift()`**
+   - Adds one or more elements to the beginning of an array and returns the new length
 
+.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.unshift(0);
+   console.log(arr); // [0, 1, 2, 3, 4]
+   ```
 
-# Array Methods
-1. arrName.length
-2. arrName.toString()                      // Convert to string
-3. arrName.join()                          // Merge array items by Adding value in middle , converts Array to String 
-- Example:-
-  ```js
-  arrName = ["aa" , "bb" , 7]
-  arrName.join("-") //= Gives :- aa-bb-7
-  arrName.join("8") //= Gives :- aa8bb87
-  ```
-4. arrName.push()                          // Insert new element to array (at the end),Returns the length of the array.
-- Example:-
-```js
-  arrName = ["aa" , "bb" , 7]
-  arrName.push("cc")
+5. **`splice()`**
+   - Adds/removes elements from an array.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.splice(2, 1, 10);
+   console.log(arr); // [1, 2, 10, 4]
+   ```
 
-  Gives:- ['aa', 'bb', 7, 'cc']
-  ```
-5. arrName.pop()                           // Removes last element of array, Returns the removed element
-- Example:-   
-  1. Bad way
-  ```js
-  let arr = ["yogesh" , "nitin"]
-  let pushed = console.log(arr.push("snskr"))     // 3
-  console.log(pushed)                             // undefined
-  let popped = console.log(arr.pop())             // snskr
-  console.log(popped)                             // undefined
-  ```
+6. **`slice()`**
+   - Returns a shallow copy of a portion of an array.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let newArr = arr.slice(1, 3);
+   console.log(newArr); // [2, 3]
+   ```
 
-  2. Good Way
-  ```js
-  let arr = ["yogesh" , "nitin"]
-  let pushed = arr.push("snskr")
-  console.log(pushed)                             // 3
-  let popped = arr.pop()
-  console.log(popped)                             // snskr
-  ```
-6. arrName.shift()                         // removes first element of array, returns the removed element 
-7. arrName.unshift()                       // add a new elemnt to array (at the beginning), returns the new array length
-  - Example:-
-  ```js
-  arrName = ["aa" , "bb" , 7]
-  arrName.unshift("cc")
-  helllo ji its me sanskar gupta 
-  
-  Gives:- [ 'cc', 'aa', 'bb', 7 ]
-  ```
-8. delete arrName[index of element]        // delete a element from array and makes a empty space there
-9. concat()                                 // Merge arrays 
-  - Example 1: 
-  ```js
-    arrName = ["aa" , "bb" , 7]
-    arrName1 = ["cc" , 786]
-    arrName2 = ["bb" ,"$"]
-    let newlist  = arrName.concat(arrName1 , arrName2)
-  ```
-  - Gives:- ['aa', 'bb', 7, 'cc', 786, 'bb', '$']
+7. **`concat()`**
+   - Merges two or more arrays.
+   ```javascript
+   let arr1 = [1, 2];
+   let arr2 = [3, 4];
+   let newArr = arr1.concat(arr2);
+   console.log(newArr); // [1, 2, 3, 4]
+   ```
 
-  - Example 2: 
-  ```js
-    arrName = ["aa" , "bb" , 7]
-    arrName.concat("niuuu")
-  ```
-10. arrName.flat()
-  - Example:-
-    ```js
-    arrName = [[1,2],[3,[[[4]]]],[[5],6]]
+8. **`join()`**
+   - Joins all elements of an array into a string.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let str = arr.join("-");
+   console.log(str); // "1-2-3-4"
+   ```
+
+9. **`map()`**
+   - Creates a new array with the results of calling a provided function on every element.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let newArr = arr.map(x => x * 2);
+   console.log(newArr); // [2, 4, 6, 8]
+   ```
+
+10. **`filter()`**
+    - Creates a new array with all elements that pass the test implemented by the provided function.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let newArr = arr.filter(x => x > 2);
+    console.log(newArr); // [3, 4]
     ```
-  - Gives:- [1, 2, 3, 4, 5, 6]
 
-11. arrName.splice(x , y , "" , "" , "" , ..........)
-  - x= index where element to be added, 
-  - y= how many elements should be removed,
-  - ""= new elements
+11. **`reduce()`**
+    - Executes a reducer function on each element, resulting in a single output value.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let sum = arr.reduce((acc, curr) => acc + curr, 0);
+    console.log(sum); // 10
+    ```
 
-12. arr.includes()                                       // checks whether the argument element is exist in array or not.
-  - Returns, True or False.
+12. **`sort()`**
+    - Sorts the elements of an array.
+    ```javascript
+    let arr = [4, 2, 3, 1];
+    arr.sort();
+    console.log(arr); // [1, 2, 3, 4]
+    ```
 
-# Array Sorting
-1. namelist.sort()                                       // sorts an array alphabetically
-2. fruits.reverse();                                     // reverse the current array
+13. **`reverse()`**
+    - Reverses the elements in an array.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    arr.reverse();
+    console.log(arr); // [4, 3, 2, 1]
+    ```
 
-2. fruits.reverse();                                    // reverse the current array
+14. **`find()`**
+    - Returns the value of the first element that satisfies the provided testing function.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let found = arr.find(x => x > 2);
+    console.log(found); // 3
+    ```
+
+15. **`findIndex()`**
+    - Returns the index of the first element that satisfies the provided testing function.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let index = arr.findIndex(x => x > 2);
+    console.log(index); // 2
+    ```
+
+## Window Object
+The window object represents the browser's window. It contains various properties and methods.
+
+### Common Methods
+- `alert("Hello, World!");`
+- `prompt("Enter your name:");`
+- `confirm("Are you sure?");`
+
+### Timer Methods
+- `setTimeout(function, milliseconds)`: Executes a function after a specified number of milliseconds.
+- `setInterval(function, milliseconds)`: Repeats execution of a function continuously every specified number of milliseconds.
+
+### Example:
+```javascript
+setTimeout(() => {
+  console.log("Hello after 3 seconds");
+}, 3000);
+
+let interval = setInterval(() => {
+  console.log("Repeating every 2 seconds");
+}, 2000);
+
+// To clear the interval
+clearInterval(interval);
+```
+
+## DOM Manipulation
+The Document Object Model (DOM) allows scripts to update the content, structure, and style of a document.
+
+### Selecting Elements
+- `document.getElementById("id")`
+- `document.getElementsByClassName("className")`
+- `document.getElementsByTagName("tagName")`
+- `document.querySelector("selector")`
+- `document.querySelectorAll("selector")`
+
+### Modifying Elements
+- `element.innerHTML = "New Content"`
+- `element.style.property = "value"`
+- `element.setAttribute("attribute", "value")`
+- `element.classList.add("className")`
+- `element.classList.remove("className")`
+- `element.classList.toggle("className")`
+
+### Creating and Removing Elements
+- `document.createElement("tagName")`
+- `element.appendChild(child)`
+- `element.removeChild(child)`
+- `element.replaceChild(newChild, oldChild)`
+
+### Event Handling
+- `element.addEventListener("event", function)`
+- `element.removeEventListener("event", function)`
+
+### Example:
+```javascript
+let button = document.getElementById("myButton");
+button.addEventListener("click", () => {
+  alert("Button clicked!");
+});
+
+let div = document.createElement("div");
+div.innerHTML = "Hello, World!";
+document.body.appendChild(div);
+
+document.body.removeChild(div);
+```
+
+### Adding External JavaScript
+Add the following line in your HTML file inside the `<head>` or `<body>` tag:
+```html
+<script src="filename.js"></script>
+```
+
+This concludes the LearnJS summary of fundamental JavaScript concepts and syntax.

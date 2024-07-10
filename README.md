@@ -11,21 +11,21 @@
 - Harry !=(not equal) harry
 
 - Types of Scopes
-  1. let
-  2. var
-  3. const
+  1. `let`
+  2. `var`
+  3. `const`
 
-  - let = initialization is optional
-  - cont = initialization is Required
-  - var = initialization is optional 
+  - `let` = initialization is optional
+  - `cont` = initialization is Required
+  - `var` = initialization is optional 
 
 <div align="center">
 
 |	  |   Block scoped |	Hoisting	|    Reassignment	  |    Initialization |
 |---|---|---|---|---|
-let	  |  Yes	  |          No	    |    Yes	   |         Optional |
-var	  |  No	    |        Yes     |	  Yes	      |      Optional |
-const	 | Yes	  |          No	   |     No	      |      Required |
+`let`	  |  Yes	  |          No	    |    Yes	   |         Optional |
+`var`	  |  No	    |        Yes     |	  Yes	      |      Optional |
+`const`	 | Yes	  |          No	   |     No	      |      Required |
 
 </div>
 
@@ -47,57 +47,64 @@ const	 | Yes	  |          No	   |     No	      |      Required |
   - let f = Symbol("I am a symbol")
   - let g;
 
-var x = null; null = kuch to hai
-var y; undefined =  kuch nai hai , Hona/Na hona Barabar hai
+`var x = null;`
+ > null = kuch to hai
+
+`var y; `
+> undefined =  kuch nai hai , Hona/Na hona Barabar hai
 
 
-console.log(typeof x); = Give the type of variable
+`console.log(typeof x);` = Give the type of variable
 
 # Objects   <!--(These are same as Dictionary in Python) Key : Value Pairs-->
 - To access value from it we can use :
 1. objectname.key
 2. objectname["Keyname"]
 # Arithmetic Operators
- - \+
- - \-
- - \*
- - **
- - /
- - %
- - ++
- - \--
+ - `+`
+ - `-`
+ - `*`
+ - `**`
+ - `/`
+ - `%`
+ - `++`
+ - `--`
 
  # Assignment Opeartors
- - =
- - +=
- - -=
- - /=
- - %=
- - *=
- - **=
+ - `=`
+ - `+=`
+ - `-=`
+ - `/=`
+ - `%=`
+ - `*=`
+ - `**=`
 
  # Comparision Operators
-- = Assigns a value to variable              // Assignment Operator 
-- == Equal to (does not checks the typeof variables)
-- != Not Equal to (does not checks the typeof variables)
-- === Equal value & Equal DataType
-- !== Not Equal to & Not Equal Type
-  1. \>
-  2. <
-  3. \>=
-  4. <=
+- `=` Assigns a value to variable              // Assignment Operator 
+- `==` Equal to (does not checks the typeof variables)
+- `!=` Not Equal to (does not checks the typeof variables)
+- `===` Equal value & Equal DataType
+- `!==` Not Equal to & Not Equal Type
+  1. `\>`
+  2. `<`
+  3. `\>=`
+  4. `<=`
 
 # Logical Operators
-- &&  Logical and 
-- ||  Logical or
-- !   Logical not
+- `&&`  Logical and 
+- `||`  Logical or
+- `!`   Logical not
 
 # Comments in JS
-- // Singel line comment
-- /* Multiline Comment */
+```
+ // Singel line comment
+ ```
+ ```
+ /* Multiline Comment */
+```
 
 # Conditional Statements
-1. if
+1. if-else
 ```js 
 if(condition){
 
@@ -106,7 +113,7 @@ else (condition){
 
 }
 ```
-2. Nested ifs
+2. Nested if-else
 ```js
 if(condition){
 
@@ -139,18 +146,23 @@ switch(var){
 }
 ```
 
-# To print in JS
-1. prompt("output")                                             // Take input from user in prompt (In Launching)
-2. alert("output")                                              // Show Alert box (In Launching)
-3. console.log("output")                                        // Print output in console
-4. console.error("error message")                               // Print an error message in console
-5. console.warn("warning message")                              // Print an warning message in console
-6. document.write("output")                                     // Print output in Main page
-7. document.getElementById("demo") = "output"                   // Return output to HTML
+#  The different methods for outputting messages in JavaScript
+#### Code Output Methods
+
+1. `prompt("output")`: Displays a dialog box with a message and an input field for the user to enter a response.
+2. `alert("output")`: Displays an alert box with a message and an OK button.
+3. `console.log("output")`: Prints a message to the browser console for debugging purposes.
+4. `console.error("error message")`: Prints an error message to the browser console.
+5. `console.warn("warning message")`: Prints a warning message to the browser console.
+6. `document.write("output")`: Writes the specified content directly into the HTML document.
+7. `document.getElementById("demo") = "output"`: Sets the content of an HTML element with the specified id to the given output.
+
+Please note that the `prompt()` and `alert()` methods are used to display messages to the user, while the `console.log()`, `console.error()`, and `console.warn()` methods are used for debugging purposes and display messages in the browser console.
 
 
 # TypeCasting
 - convert from one type to the other <!-- This part requires research on implicit and explicit typecasting-->
+> Typecasting is the process of converting a value from one data type to another in programming. It can be implicit or explicit, depending on whether it is done automatically or manually by the programmer.
 ```js
 a = Number.parseInt(a); // Convert string to a number
 a = parseInt(a); // Convert string to a number    
@@ -200,7 +212,7 @@ const dict = {
       console.log(name[a])
     }
   ```
-  - Gives:- 
+  - output:- 
   ```
   s
   a
@@ -221,7 +233,7 @@ let name = "sanskar";
   }
 ```
 
-- Gives:- 
+- Output:- 
 ``` 
 s
 a
@@ -309,71 +321,35 @@ funcName = () => "Hello World!";
    - "Hello\\World"               //   \\ = creates a double quote 
 
 # [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
-1. strName.at(index) OR strName[index]                  // Return index charctor from string 
-2. strName.charAt(index)                             // returns the character at a given index // Better option
-3. strName.charCodeAt(index)                         // returns the unicode of character at a given index
-4. strName.fromCharCode(CharCodeOfString);           // returns the string from unicode of character
-5. strName.endsWith("")            //  check weather the string ends with specific value
-6. strName.includes("")            //  check weather the string contain any specific value
-7. strName.indexOf()                //  returns the index of first occurrence the given string
-* Example
-  * strName.indexOf("s")
-  - strName.indexOf("s" , 6)        // Start searching string from 6th index
-8. strName.lastIndexOf()            // returns the index of last occurrence the given string
-9. strName.length()                  // To get the length of the string
-10. strName.localeCompare(text2);     // Compare two strings - Returns -1 , 0 , 1
-11. strName.match(/string/)           // If given string found then it returns the string
 
-* Example
-```js
-  let strName = "The rain in SPAIN stays mainly in the plain";
-  - console.log(strName.match(/ain/))              
-    //- Gives = ["ain"]
-  - console.log(strName.match(/ain/g))           //Search globally + Case sensitive
-    //- Gives = ["ain", "ain", "ain"]
-  - console.log(strName.match(/ain/gi))          //Search globally + Case in-sensitive
-    //- Gives = ["ain", "AIN", "ain", "ain"]
+
+- `strName.charAt(index)` or `strName[index]`: Returns the character at the specified index.
+- `strName.charCodeAt(index)`: Returns the Unicode value of the character at the specified index.
+- `String.fromCharCode(CharCodeOfString)`: Returns a string from the Unicode value.
+- `strName.endsWith("")`: Checks if the string ends with a specific value.
+- `strName.includes("")`: Checks if the string contains a specific value.
+- `strName.indexOf("")`: Returns the index of the first occurrence of the given string.
+- `strName.lastIndexOf("")`: Returns the index of the last occurrence of the given string.
+- `strName.length`: Returns the length of the string.
+- `strName.localeCompare(text2)`: Compares two strings and returns -1, 0, or 1.
+- `strName.match(/string/)`: Returns the matched string if found.
+
+For example:
+```javascript
+let strName = "Hello World";
+console.log(strName.charAt(4)); // Output: "o"
+console.log(strName.charCodeAt(6)); // Output: 87
+console.log(String.fromCharCode(72)); // Output: "H"
+console.log(strName.endsWith("World")); // Output: true
+console.log(strName.includes("lo")); // Output: true
+console.log(strName.indexOf("o")); // Output: 4
+console.log(strName.lastIndexOf("o")); // Output: 7
+console.log(strName.length); // Output: 11
+console.log(strName.localeCompare("Hello")); // Output: 1
+console.log(strName.match(/World/)); // Output: "World"
 ```
 
-1. strName.padEnd(l, x)
-  - l = length of desired string
-  - x = string to be added to incerease length
 
-1. strName.padStart(l, x)
-
-2. strName.toUpperCase()
-3. strName.toLowerCase()
-4. strName.slice()                     // Extracts a part of a string and returns the extracted part - accepts negative indices
-    slice counts the blanks/spaces but not print them
-  Examples:-
-  1. strName.slice("Starting index , "End.index");
-  2. strName.slice(7, 13);
-  3. strName.slice(7);               // extract the whole string from 7 to end
-  4. strName.slice(-7);              // extract the whole string from 7(from end) to starting
-  5. strName.slice(-7 , -13);        // extract the whole string from 7(from end) to 13(from end)
-  helloji its me("hello its me Devil over here )
-So , todays tasks areee......ae tu ja reee
-
-
-5. strName.substr("Starting index , string.length)   // Extracts a part of a string and returns the extracted part
-6. strName.substring(Starting index","End Index")    // Extracts a part of a string and returns the extracted part - not accepts negative indices
-7. strName.replace("old string", "new string")
-8. strName.replaceAll("old string", "new string")
-9. strName.concat();
-10. 
-  Examples:-
-  let strName = "sans";
-  let strName2 = "kar";
-  1. console.log(strName.concat(strName2));
-  2. console.log(strName.concat("kar"));
-  3. console.log(strName.concat(strName2 , "is hot"));
-                  **OR**
-  3. console.log(strName + strName2 + " is a cool guy");
-10. strName.trim()                  //  removes whitespace from both sides of a string
-11. strName.trimStart()             //  removes whitespace from Start of a string
-12. strName.trimEnd()               //  removes whitespace from End of a string
-14. strName.startsWith("")          //  check weather the string starts with specific value
-16. strName.split("separator");     //  String converted into Array, the separator is omitted
 - Example:-
   ```js
     let text = "a,b,c,d,e,f";
@@ -386,90 +362,275 @@ So , todays tasks areee......ae tu ja reee
   ```
 
 # Arrays      DataType = objects
-- const array = []
-- let array = []
+- `const array = []`
+- `let array = []`
 
 
 # Array Methods
-1. arrName.length
-2. arrName.toString()                      // Convert to string
-3. arrName.join()                          // Merge array items by Adding value in middle , converts Array to String 
-- Example:-
-  ```js
-  arrName = ["aa" , "bb" , 7]
-  arrName.join("-") //= Gives :- aa-bb-7
-  arrName.join("8") //= Gives :- aa8bb87
-  ```
-4. arrName.push()                          // Insert new element to array (at the end),Returns the length of the array.
-- Example:-
-```js
-  arrName = ["aa" , "bb" , 7]
-  arrName.push("cc")
 
-  Gives:- ['aa', 'bb', 7, 'cc']
-  ```
-5. arrName.pop()                           // Removes last element of array, Returns the removed element
-- Example:-   
-  1. Bad way
-  ```js
-  let arr = ["yogesh" , "nitin"]
-  let pushed = console.log(arr.push("snskr"))     // 3
-  console.log(pushed)                             // undefined
-  let popped = console.log(arr.pop())             // snskr
-  console.log(popped)                             // undefined
-  ```
 
-  2. Good Way
-  ```js
-  let arr = ["yogesh" , "nitin"]
-  let pushed = arr.push("snskr")
-  console.log(pushed)                             // 3
-  let popped = arr.pop()
-  console.log(popped)                             // snskr
-  ```
-6. arrName.shift()                         // removes first element of array, returns the removed element 
-7. arrName.unshift()                       // add a new elemnt to array (at the beginning), returns the new array length
-  - Example:-
-  ```js
-  arrName = ["aa" , "bb" , 7]
-  arrName.unshift("cc")
-  helllo ji its me sanskar gupta 
-  
-  Gives:- [ 'cc', 'aa', 'bb', 7 ]
-  ```
-8. delete arrName[index of element]        // delete a element from array and makes a empty space there
-9. concat()                                 // Merge arrays 
-  - Example 1: 
-  ```js
-    arrName = ["aa" , "bb" , 7]
-    arrName1 = ["cc" , 786]
-    arrName2 = ["bb" ,"$"]
-    let newlist  = arrName.concat(arrName1 , arrName2)
-  ```
-  - Gives:- ['aa', 'bb', 7, 'cc', 786, 'bb', '$']
+1. **`push()`**
+   - Adds one or more elements to the end of an array and returns the new length.
+   ```javascript
+   let arr = [1, 2, 3];
+   arr.push(4);
+   console.log(arr); // [1, 2, 3, 4]
+   ```
 
-  - Example 2: 
-  ```js
-    arrName = ["aa" , "bb" , 7]
-    arrName.concat("niuuu")
-  ```
-10. arrName.flat()
-  - Example:-
-    ```js
-    arrName = [[1,2],[3,[[[4]]]],[[5],6]]
+2. **`pop()`**
+   - Removes the last element from an array and returns that element.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.pop();
+   console.log(arr); // [1, 2, 3]
+   ```
+
+3. **`shift()`**
+   - Removes the first element from an array and returns that element.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.shift();
+   console.log(arr); // [2, 3, 4]
+   ```
+
+4. **`unshift()`**
+   - Adds one or more elements to the beginning of an array and returns the new length.
+   ```javascript
+   let arr = [2, 3, 4];
+   arr.unshift(1);
+   console.log(arr); // [1, 2, 3, 4]
+   ```
+
+5. **`map()`**
+   - Creates a new array populated with the results of calling a provided function on every element in the calling array.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let doubled = arr.map(x => x * 2);
+   console.log(doubled); // [2, 4, 6, 8]
+   ```
+
+6. **`filter()`**
+   - Creates a new array with all elements that pass the test implemented by the provided function.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let even = arr.filter(x => x % 2 === 0);
+   console.log(even); // [2, 4]
+   ```
+
+7. **`reduce()`**
+   - Executes a reducer function on each element of the array, resulting in a single output value.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let sum = arr.reduce((acc, x) => acc + x, 0);
+   console.log(sum); // 10
+   ```
+
+8. **`forEach()`**
+   - Executes a provided function once for each array element.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   arr.forEach(x => console.log(x * 2)); // 2, 4, 6, 8
+   ```
+
+9. **`find()`**
+   - Returns the value of the first element in the provided array that satisfies the provided testing function.
+   ```javascript
+   let arr = [1, 2, 3, 4];
+   let found = arr.find(x => x > 2);
+   console.log(found); // 3
+   ```
+
+10. **`findIndex()`**
+    - Returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let index = arr.findIndex(x => x > 2);
+    console.log(index); // 2
     ```
-  - Gives:- [1, 2, 3, 4, 5, 6]
 
-11. arrName.splice(x , y , "" , "" , "" , ..........)
-  - x= index where element to be added, 
-  - y= how many elements should be removed,
-  - ""= new elements
+11. **`slice()`**
+    - Returns a shallow copy of a portion of an array into a new array object selected from `start` to `end` (end not included).
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let sliced = arr.slice(1, 3);
+    console.log(sliced); // [2, 3]
+    ```
 
-12. arr.includes()                                       // checks whether the argument element is exist in array or not.
-  - Returns, True or False.
+12. **`splice()`**
+    - Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    arr.splice(1, 2, 'a', 'b');
+    console.log(arr); // [1, 'a', 'b', 4]
+    ```
+
+13. **`concat()`**
+    - Merges two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+    ```javascript
+    let arr1 = [1, 2];
+    let arr2 = [3, 4];
+    let combined = arr1.concat(arr2);
+    console.log(combined); // [1, 2, 3, 4]
+    ```
+
+14. **`join()`**
+    - Joins all elements of an array into a string and returns this string.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let joined = arr.join('-');
+    console.log(joined); // "1-2-3-4"
+    ```
+
+15. **`reverse()`**
+    - Reverses the order of the elements in an array in place.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    arr.reverse();
+    console.log(arr); // [4, 3, 2, 1]
+    ```
+
+16. **`sort()`**
+    - Sorts the elements of an array in place and returns the array. The default sort order is ascending.
+    ```javascript
+    let arr = [3, 1, 4, 2];
+    arr.sort();
+    console.log(arr); // [1, 2, 3, 4]
+    ```
+
+17. **`some()`**
+    - Tests whether at least one element in the array passes the test implemented by the provided function.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let hasEven = arr.some(x => x % 2 === 0);
+    console.log(hasEven); // true
+    ```
+
+18. **`every()`**
+    - Tests whether all elements in the array pass the test implemented by the provided function.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let allEven = arr.every(x => x % 2 === 0);
+    console.log(allEven); // false
+    ```
+
+19. **`includes()`**
+    - Determines whether an array includes a certain value among its entries, returning true or false.
+    ```javascript
+    let arr = [1, 2, 3, 4];
+    let containsTwo = arr.includes(2);
+    console.log(containsTwo); // true
+    ```
+
+20. **`flat()`**
+    - Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+    ```javascript
+    let arr = [1, [2, [3, 4]], 5];
+    let flattened = arr.flat(2);
+    console.log(flattened); // [1, 2, 3, 4, 5]
+    ```
+
 
 # Array Sorting
-1. namelist.sort()                                       // sorts an array alphabetically
-2. fruits.reverse();                                     // reverse the current array
 
-2. fruits.reverse();                                    // reverse the current array
+### 1. `Array.sort()`
+Sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings and comparing their sequences of UTF-16 code units values.
+
+**Example:**
+```javascript
+let numbers = [3, 1, 4, 1, 5, 9];
+numbers.sort();
+console.log(numbers);
+```
+**Output:**
+```
+[1, 1, 3, 4, 5, 9]
+```
+
+### 2. `Array.reverse()`
+Reverses the elements of the array in place. The first array element becomes the last, and the last array element becomes the first.
+
+**Example:**
+```javascript
+let fruits = ['banana', 'apple', 'cherry'];
+fruits.reverse();
+console.log(fruits);
+```
+**Output:**
+```
+['cherry', 'apple', 'banana']
+```
+
+### 3. `Array.sort(compareFunction)`
+Sorts the elements of an array using a custom compare function. The compare function determines the sort order.
+
+**Example:**
+```javascript
+let numbers = [3, 1, 4, 1, 5, 9];
+numbers.sort((a, b) => a - b);  // Ascending order
+console.log(numbers);
+```
+**Output:**
+```
+[1, 1, 3, 4, 5, 9]
+```
+
+### 4. `Array.sort().reverse()`
+Combines sorting and reversing to sort the array in descending order.
+
+**Example:**
+```javascript
+let numbers = [3, 1, 4, 1, 5, 9];
+numbers.sort().reverse();
+console.log(numbers);
+```
+**Output:**
+```
+[9, 5, 4, 3, 1, 1]
+```
+
+### 5. `Array.prototype.map().sort()`
+Sorts the elements based on a property of the objects within the array.
+
+**Example:**
+```javascript
+let items = [
+    { name: 'apple', price: 2 },
+    { name: 'banana', price: 1 },
+    { name: 'cherry', price: 3 }
+];
+items.sort((a, b) => a.price - b.price);
+console.log(items);
+```
+**Output:**
+```
+[{ name: 'banana', price: 1 }, { name: 'apple', price: 2 }, { name: 'cherry', price: 3 }]
+```
+
+### 6. `Array.prototype.sort((a, b) => b - a)`
+Sorts the elements of an array in descending numerical order.
+
+**Example:**
+```javascript
+let numbers = [3, 1, 4, 1, 5, 9];
+numbers.sort((a, b) => b - a);  // Descending order
+console.log(numbers);
+```
+**Output:**
+```
+[9, 5, 4, 3, 1, 1]
+```
+
+### 7. `Array.from()`
+Creates a new array instance from an array-like or iterable object. Not a sorting method per se, but useful for creating arrays to sort.
+
+**Example:**
+```javascript
+let set = new Set([3, 1, 4, 1, 5, 9]);
+let arrayFromSet = Array.from(set).sort();
+console.log(arrayFromSet);
+```
+**Output:**
+```
+[1, 3, 4, 5, 9]
+```
+

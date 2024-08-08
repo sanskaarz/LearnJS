@@ -70,7 +70,6 @@ Objects in JavaScript are similar to dictionaries in Python (key-value pairs).
 - `=`, `+=`, `-=`, `/=`, `%=`, `*=`, `**=`
 
 ### Comparison Operators
-- `=`: Assignment operator.
 - `==`: Equal to (does not check the type).
 - `!=`: Not equal to (does not check the type).
 - `===`: Equal value and equal type.

@@ -211,6 +211,31 @@ Objects in JavaScript are similar to dictionaries in Python (key-value pairs).
 ### Assignment Operators
 - `=`, `+=`, `-=`, `/=`, `%=`, `*=`, `**=`
 
+---
+
+| Operator | Name                        | Description                                                                 | Example                 | Equivalent to           | Result                  |
+|----------|-----------------------------|-----------------------------------------------------------------------------|-------------------------|-------------------------|-------------------------|
+| `=`      | Assignment                  | Assigns a value to a variable.                                              | `x = 5`                 | —                       | `x = 5`                 |
+| `+=`     | Addition Assignment         | Adds the right operand to the left operand and assigns the result to the left operand. | `x += 3`                | `x = x + 3`             | `x` becomes `8`         |
+| `-=`     | Subtraction Assignment      | Subtracts the right operand from the left operand and assigns the result to the left operand. | `x -= 2`                | `x = x - 2`             | `x` becomes `6`         |
+| `*=`     | Multiplication Assignment   | Multiplies the left operand by the right operand and assigns the result to the left operand. | `x *= 4`                | `x = x * 4`             | `x` becomes `20`        |
+| `/=`     | Division Assignment         | Divides the left operand by the right operand and assigns the result to the left operand. | `x /= 5`                | `x = x / 5`             | `x` becomes `4`         |
+| `%=`     | Modulus Assignment          | Takes the modulus using the two operands and assigns the result to the left operand. | `x %= 3`                | `x = x % 3`             | `x` becomes `1`         |
+| `**=`    | Exponentiation Assignment   | Raises the left operand to the power of the right operand and assigns the result to the left operand. | `x **= 2`               | `x = x ** 2`            | `x` becomes `16`        |
+
+---
+
+### Notes:
+
+- **Assignment (`=`)**: Simply assigns the right-hand value to the left-hand variable.
+- **Addition Assignment (`+=`)**: Adds the value of the right-hand operand to the left-hand operand and assigns the result to the left-hand operand.
+- **Subtraction Assignment (`-=`)**: Subtracts the right-hand operand from the left-hand operand and assigns the result to the left-hand operand.
+- **Multiplication Assignment (`*=`)**: Multiplies the left-hand operand by the right-hand operand and assigns the result to the left-hand operand.
+- **Division Assignment (`/=`)**: Divides the left-hand operand by the right-hand operand and assigns the result to the left-hand operand.
+- **Modulus Assignment (`%=`)**: Takes the modulus using the left-hand operand and the right-hand operand and assigns the result to the left-hand operand.
+- **Exponentiation Assignment (`**=`)**: Raises the left-hand operand to the power of the right-hand operand and assigns the result to the left-hand operand.
+
+---
 ### Comparison Operators
 - `==`: Equal to (does not check the type).
 - `!=`: Not equal to (does not check the type).

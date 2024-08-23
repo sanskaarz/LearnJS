@@ -122,335 +122,250 @@ This roadmap gives a structured pathway to learning JavaScript, starting from th
 </div>
 
 ## Variables
-- variable is a container = stores in  RAM
-- variable names can start with $ or _ or letter ..... not number
-- Harry !=(not equal) harry
+- A variable is a container that stores data in RAM.
+- Variable names can start with `$`, `_`, or a letter but not a number.
+- `Harry` is not equal to `harry`.
 
-- Types of Scopes
-  1. `let`
-  2. `var`
-  3. `const`
+### Types of Scopes
+1. `let`
+2. `var`
+3. `const`
 
-  - `let` = initialization is optional
-  - `cont` = initialization is Required
-  - `var` = initialization is optional 
+- `let`: Initialization is optional.
+- `const`: Initialization is required.
+- `var`: Initialization is optional.
 
 <div align="center">
 
-|	  |   Block scoped |	Hoisting	|    Reassignment	  |    Initialization |
-|---|---|---|---|---|
-`let`	  |  Yes	  |          No	    |    Yes	   |         Optional |
-`var`	  |  No	    |        Yes     |	  Yes	      |      Optional |
-`const`	 | Yes	  |          No	   |     No	      |      Required |
+|       | Block Scoped | Hoisting | Reassignment | Initialization |
+|-------|---------------|----------|--------------|----------------|
+| `let` | Yes           | No       | Yes          | Optional       |
+| `var` | No            | Yes      | Yes          | Optional       |
+| `const`| Yes          | No       | No           | Required       |
 
 </div>
 
-# Primitive DataTypes
-# Primitive DataTypes
-  1. null
-  2. number
-  3. symbol
-  4. string
-  5. boolean
-  6. bigint
-  7. undefined
-- Examles :-
-  - let a = null;
-  - let b = 345;
-  - let c = true; // can also be false
-  - let d = BigInt("567") + BigInt("3")
-  - let e = "Harry"
-  - let f = Symbol("I am a symbol")
-  - let g;
+## Primitive Data Types
+1. `null`
+2. `number`
+3. `symbol`
+4. `string`
+5. `boolean`
+6. `bigint`
+7. `undefined`
 
-`var x = null;`
- > null = kuch to hai
-
-`var y; `
-> undefined =  kuch nai hai , Hona/Na hona Barabar hai
-
-
-`console.log(typeof x);` = Give the type of variable
-
-# Objects   <!--(These are same as Dictionary in Python) Key : Value Pairs-->
-- To access value from it we can use :
-1. objectname.key
-2. objectname["Keyname"]
-# Arithmetic Operators
- - `+`
- - `-`
- - `*`
- - `**`
- - `/`
- - `%`
- - `++`
- - `--`
-
- # Assignment Opeartors
- - `=`
- - `+=`
- - `-=`
- - `/=`
- - `%=`
- - `*=`
- - `**=`
-
- # Comparision Operators
-- `=` Assigns a value to variable              // Assignment Operator 
-- `==` Equal to (does not checks the typeof variables)
-- `!=` Not Equal to (does not checks the typeof variables)
-- `===` Equal value & Equal DataType
-- `!==` Not Equal to & Not Equal Type
-  1. `\>`
-  2. `<`
-  3. `\>=`
-  4. `<=`
-
-# Logical Operators
-- `&&`  Logical and 
-- `||`  Logical or
-- `!`   Logical not
-
-# Comments in JS
-```
- // Singel line comment
- ```
- ```
- /* Multiline Comment */
+### Examples:
+```javascript
+let a = null;
+let b = 345;
+let c = true; // can also be false
+let d = BigInt("567") + BigInt("3");
+let e = "Harry";
+let f = Symbol("I am a symbol");
+let g;
 ```
 
-# Conditional Statements
-1. if-else
-```js 
-if(condition){
-
-}
-else (condition){
-
-}
-```
-2. Nested if-else
-```js
-if(condition){
-
-}
-else if (condition){
-
-}
-else{
-
-}
-```
-3. Ternary Operator
- ```js
- condition? expression1:expression2;
-```
-4. Switch Case
-```js
-switch(var){
-    case "1":
-    result;
-    break
-
-    case "2":
-    result;
-    break
-
-    case "3":
-    result;
-    break
-}
+### Type of a Variable
+```javascript
+console.log(typeof a); // Output: object
 ```
 
-#  The different methods for outputting messages in JavaScript
-#### Code Output Methods
+## Objects
+Objects in JavaScript are similar to dictionaries in Python (key-value pairs).
 
-1. `prompt("output")`: Displays a dialog box with a message and an input field for the user to enter a response.
+### Accessing Object Values
+1. `objectname.key`
+2. `objectname["Keyname"]`
+
+## Operators
+
+### Arithmetic Operators
+- `+`, `-`, `*`, `**`, `/`, `%`, `++`, `--`
+
+### Assignment Operators
+- `=`, `+=`, `-=`, `/=`, `%=`, `*=`, `**=`
+
+### Comparison Operators
+- `==`: Equal to (does not check the type).
+- `!=`: Not equal to (does not check the type).
+- `===`: Equal value and equal type.
+- `!==`: Not equal value and not equal type.
+- `>`, `<`, `>=`, `<=`
+
+### Logical Operators
+- `&&`: Logical AND
+- `||`: Logical OR
+- `!`: Logical NOT
+
+## Comments in JavaScript
+```javascript
+// Single line comment
+
+/* 
+   Multi-line comment 
+*/
+```
+
+## Conditional Statements
+1. **if-else**
+   ```javascript
+   if (condition) {
+       // code to be executed if condition is true
+   } else {
+       // code to be executed if condition is false
+   }
+   ```
+
+2. **Nested if-else**
+   ```javascript
+   if (condition1) {
+       // code to be executed if condition1 is true
+   } else if (condition2) {
+       // code to be executed if condition2 is true
+   } else {
+       // code to be executed if both conditions are false
+   }
+   ```
+
+3. **Ternary Operator**
+   ```javascript
+   condition ? expression1 : expression2;
+   ```
+
+4. **Switch Case**
+   ```javascript
+   switch (variable) {
+       case "1":
+           // code to be executed if variable is "1"
+           break;
+       case "2":
+           // code to be executed if variable is "2"
+           break;
+       default:
+           // code to be executed if variable doesn't match any case
+   }
+   ```
+
+## Output Methods
+1. `prompt("output")`: Displays a dialog box with a message and an input field for the user.
 2. `alert("output")`: Displays an alert box with a message and an OK button.
-3. `console.log("output")`: Prints a message to the browser console for debugging purposes.
+3. `console.log("output")`: Prints a message to the browser console for debugging.
 4. `console.error("error message")`: Prints an error message to the browser console.
 5. `console.warn("warning message")`: Prints a warning message to the browser console.
-6. `document.write("output")`: Writes the specified content directly into the HTML document.
-7. `document.getElementById("demo") = "output"`: Sets the content of an HTML element with the specified id to the given output.
+6. `document.write("output")`: Writes content directly into the HTML document.
+7. `document.getElementById("demo").innerHTML = "output"`: Sets the content of an HTML element with the specified id.
 
-Please note that the `prompt()` and `alert()` methods are used to display messages to the user, while the `console.log()`, `console.error()`, and `console.warn()` methods are used for debugging purposes and display messages in the browser console.
+## TypeCasting
+Typecasting is converting a value from one data type to another. It can be implicit or explicit.
 
-
-# TypeCasting
-- convert from one type to the other <!-- This part requires research on implicit and explicit typecasting-->
-> Typecasting is the process of converting a value from one data type to another in programming. It can be implicit or explicit, depending on whether it is done automatically or manually by the programmer.
-```js
+### Examples:
+```javascript
+let a = "123";
 a = Number.parseInt(a); // Convert string to a number
-a = parseInt(a); // Convert string to a number    
+a = parseInt(a); // Convert string to a number
 ```
 
-# Loops
+## Loops
 ### 1. for
-```js
-for(initialize; condition ; increment){
-  //code to be executed
+```javascript
+for (initialize; condition; increment) {
+  // code to be executed
 }
 ```
 
-### 2. for in
-- Iterates/Works over the values of an object
-- Loop running count = Number of elements in the object
-- Example:-
-```js
+### 2. for-in
+Iterates over the properties of an object.
+```javascript
 const dict = {
-  water : "pani",
-  lens :"Chasma",
-  bag : "BAsta",
-  mobile : "Phone"
+  water: "pani",
+  lens: "chasma",
+  bag: "basta",
+  mobile: "phone"
 };
+
+for (let key in dict) {
+  console.log(key); // prints keys
+  console.log(dict[key]); // prints values
+}
 ```
-<!-- (let anyword in dict) = It stores all the values of dict in anyword -->
 
-1. To print all the keys of elements of object
-  ```js
-  for (let anyword in dict){
-    console.log(anyword);
-  }
-  ```
-
-  2. To print all the values of elements of object
-  - Example 1 :
-  ```js
-  for (let anyword in dict){
-    console.log(dict[anyword]);
-  }
-  ```
-
-  - Example 2 :-
-  ```js
-  let name = "sanskar";
-    for(let a in name){
-      console.log(name[a])
-    }
-  ```
-  - output:- 
-  ```
-  s
-  a
-  n
-  s
-  k
-  a
-  r
-  ```
-
-### 3. for of
-- Iterates/Works over the values of an iterable object
-- Example 1:
-```js
+### 3. for-of
+Iterates over the values of an iterable object.
+```javascript
 let name = "sanskar";
-  for(let a of name){
-    console.log(a)
-  }
-```
-
-- Output:- 
-``` 
-s
-a
-n
-s
-k
-a
-r
-```
-- Example2:-
-```js
-  let name = ["s","a","n","s","k","a","r"]
-  for(let i of name){
-    console.log(i)
-  }
+for (let char of name) {
+  console.log(char); // prints each character
+}
 ```
 
 ### 4. while
-```js
-while(condition){
-    // code to be executed
-}
-
-```
-### 5. do while
-```js 
-  do{
-      //code to be executed
-  }while(condition);
-```
-
-# Function                                      
-- Reusable block of code that performs Specific tasks
-- Return Statement is only needed only if you want to print/use the value of variable outside function.
-     
-1. Function without parameters
-```js
-function funcName(){
-    // code to be executed
-}
-funcName() //calling the function to use it
-```
-2. Function with parameters
-```js
-function myFunc(a,b){
-    // code to be executed having the use of parameters
+```javascript
+while (condition) {
+  // code to be executed
 }
 ```
 
-- Example:-
-```js
-function myFunc(x, y) {
-  return (x + y);
+### 5. do-while
+```javascript
+do {
+  // code to be executed
+} while (condition);
+```
+
+## Functions
+Reusable blocks of code that perform specific tasks.
+
+### Function without Parameters
+```javascript
+function funcName() {
+  // code to be executed
+}
+funcName(); // calling the function
+```
+
+### Function with Parameters
+```javascript
+function myFunc(a, b) {
+  return a + b;
 }
 ```
 
 ### Arrow Function
-* Before Arrow Function
-```js
+```javascript
+// Before Arrow Function
 funcName = function() {
   return "Hello World!";
 }
-```
-* After Arrow Function
-```js
-funcName = () => {
-  return "Hello World!";
-}
-```
-* Arrow Functions Return Value by Default &nbsp; // This works only when function has only one statement 
-```js
+
+// After Arrow Function
 funcName = () => "Hello World!";
 ```
 
-# Strings
-1. "Hello my value is " + a    //double quotes
-2. 'Hello my value is ' + a   //Single Quotes 
-3. \`Hello my value is ${a}`    //Backticks     
-    //Template Literals = We can add variables to strings using template literals  
-4. Escape Sequences (length of these are 1 in total)
-   - "Hello\nWorld"               //   \n = creates a new line
-   - "Hello\tWorld"               //   \t = creates a tab
-   - "Hello\'World"               //   \' = creates a single quote 
-   - "Hello\"World"               //   \" = creates a double quote 
-   - "Hello\\World"               //   \\ = creates a double quote 
+## Strings
+1. `"Hello my value is " + a` // double quotes
+2. `'Hello my value is ' + a` // single quotes
+3. ``Hello my value is ${a}`` // backticks (template literals)
 
-# [String Methods](https://www.w3schools.com/jsref/jsref_obj_string.asp)
+### Escape Sequences
+- `\n`: New line
+- `\t`: Tab
+- `\'`: Single quote
+- `\"`: Double quote
+- `\\`: Backslash
 
-
+### String Methods
 - `strName.charAt(index)` or `strName[index]`: Returns the character at the specified index.
 - `strName.charCodeAt(index)`: Returns the Unicode value of the character at the specified index.
 - `String.fromCharCode(CharCodeOfString)`: Returns a string from the Unicode value.
-- `strName.endsWith("")`: Checks if the string ends with a specific value.
-- `strName.includes("")`: Checks if the string contains a specific value.
-- `strName.indexOf("")`: Returns the index of the first occurrence of the given string.
-- `strName.lastIndexOf("")`: Returns the index of the last occurrence of the given string.
+- `strName.endsWith("text")`: Checks if the string ends with a specific value.
+- `strName.includes("text")`: Checks if the string contains a specific value.
+- `strName.indexOf("text")`: Returns the index of the first occurrence of the given string.
+- `strName.lastIndexOf("text")`: Returns the index of the last occurrence of the given string.
 - `strName.length`: Returns the length of the string.
-- `strName.localeCompare(text2)`: Compares two strings and returns -1, 0, or 1.
-- `strName.match(/string/)`: Returns the matched string if found.
+- `strName.localeCompare("text2")`: Compares two strings and returns -1, 0, or 1.
+- `strName.match(/text/)`: Returns the matched string if found.
 
-For example:
+### Example:
 ```javascript
 let strName = "Hello World";
 console.log(strName.charAt(4)); // Output: "o"
@@ -462,29 +377,21 @@ console.log(strName.indexOf("o")); // Output: 4
 console.log(strName.lastIndexOf("o")); // Output: 7
 console.log(strName.length); // Output: 11
 console.log(strName.localeCompare("Hello")); // Output: 1
-console.log(strName.match(/World/)); // Output: "World"
+console.log(strName.match(/World/)); // Output: ["World"]
 ```
 
+### Splitting a String into an Array
+```javascript
+let text = "a,b,c,d,e,f";
+let myArray = text.split(",");
+console.log(myArray[2]); // Output: "c"
+```
 
-- Example:-
-  ```js
-    let text = "a,b,c,d,e,f";
-    let myArray = text.split(",");
-    console.log(myArray[2])
-  ```
-- Gives:-
-  ```
-  c
-  ```
-
-# Arrays      DataType = objects
+## Arrays
 - `const array = []`
 - `let array = []`
 
-
-# Array Methods
-
-
+### Array Methods
 1. **`push()`**
    - Adds one or more elements to the end of an array and returns the new length.
    ```javascript
@@ -510,243 +417,176 @@ console.log(strName.match(/World/)); // Output: "World"
    ```
 
 4. **`unshift()`**
-   - Adds one or more elements to the beginning of an array and returns the new length.
-   ```javascript
-   let arr = [2, 3, 4];
-   arr.unshift(1);
-   console.log(arr); // [1, 2, 3, 4]
-   ```
+   - Adds one or more elements to the beginning of an array and returns the new length
 
-5. **`map()`**
-   - Creates a new array populated with the results of calling a provided function on every element in the calling array.
+.
    ```javascript
    let arr = [1, 2, 3, 4];
-   let doubled = arr.map(x => x * 2);
-   console.log(doubled); // [2, 4, 6, 8]
+   arr.unshift(0);
+   console.log(arr); // [0, 1, 2, 3, 4]
    ```
 
-6. **`filter()`**
-   - Creates a new array with all elements that pass the test implemented by the provided function.
+5. **`splice()`**
+   - Adds/removes elements from an array.
    ```javascript
    let arr = [1, 2, 3, 4];
-   let even = arr.filter(x => x % 2 === 0);
-   console.log(even); // [2, 4]
+   arr.splice(2, 1, 10);
+   console.log(arr); // [1, 2, 10, 4]
    ```
 
-7. **`reduce()`**
-   - Executes a reducer function on each element of the array, resulting in a single output value.
+6. **`slice()`**
+   - Returns a shallow copy of a portion of an array.
    ```javascript
    let arr = [1, 2, 3, 4];
-   let sum = arr.reduce((acc, x) => acc + x, 0);
-   console.log(sum); // 10
+   let newArr = arr.slice(1, 3);
+   console.log(newArr); // [2, 3]
    ```
 
-8. **`forEach()`**
-   - Executes a provided function once for each array element.
+7. **`concat()`**
+   - Merges two or more arrays.
+   ```javascript
+   let arr1 = [1, 2];
+   let arr2 = [3, 4];
+   let newArr = arr1.concat(arr2);
+   console.log(newArr); // [1, 2, 3, 4]
+   ```
+
+8. **`join()`**
+   - Joins all elements of an array into a string.
    ```javascript
    let arr = [1, 2, 3, 4];
-   arr.forEach(x => console.log(x * 2)); // 2, 4, 6, 8
+   let str = arr.join("-");
+   console.log(str); // "1-2-3-4"
    ```
 
-9. **`find()`**
-   - Returns the value of the first element in the provided array that satisfies the provided testing function.
+9. **`map()`**
+   - Creates a new array with the results of calling a provided function on every element.
    ```javascript
    let arr = [1, 2, 3, 4];
-   let found = arr.find(x => x > 2);
-   console.log(found); // 3
+   let newArr = arr.map(x => x * 2);
+   console.log(newArr); // [2, 4, 6, 8]
    ```
 
-10. **`findIndex()`**
-    - Returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1.
+10. **`filter()`**
+    - Creates a new array with all elements that pass the test implemented by the provided function.
     ```javascript
     let arr = [1, 2, 3, 4];
-    let index = arr.findIndex(x => x > 2);
-    console.log(index); // 2
+    let newArr = arr.filter(x => x > 2);
+    console.log(newArr); // [3, 4]
     ```
 
-11. **`slice()`**
-    - Returns a shallow copy of a portion of an array into a new array object selected from `start` to `end` (end not included).
+11. **`reduce()`**
+    - Executes a reducer function on each element, resulting in a single output value.
     ```javascript
     let arr = [1, 2, 3, 4];
-    let sliced = arr.slice(1, 3);
-    console.log(sliced); // [2, 3]
+    let sum = arr.reduce((acc, curr) => acc + curr, 0);
+    console.log(sum); // 10
     ```
 
-12. **`splice()`**
-    - Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+12. **`sort()`**
+    - Sorts the elements of an array.
     ```javascript
-    let arr = [1, 2, 3, 4];
-    arr.splice(1, 2, 'a', 'b');
-    console.log(arr); // [1, 'a', 'b', 4]
+    let arr = [4, 2, 3, 1];
+    arr.sort();
+    console.log(arr); // [1, 2, 3, 4]
     ```
 
-13. **`concat()`**
-    - Merges two or more arrays. This method does not change the existing arrays, but instead returns a new array.
-    ```javascript
-    let arr1 = [1, 2];
-    let arr2 = [3, 4];
-    let combined = arr1.concat(arr2);
-    console.log(combined); // [1, 2, 3, 4]
-    ```
-
-14. **`join()`**
-    - Joins all elements of an array into a string and returns this string.
-    ```javascript
-    let arr = [1, 2, 3, 4];
-    let joined = arr.join('-');
-    console.log(joined); // "1-2-3-4"
-    ```
-
-15. **`reverse()`**
-    - Reverses the order of the elements in an array in place.
+13. **`reverse()`**
+    - Reverses the elements in an array.
     ```javascript
     let arr = [1, 2, 3, 4];
     arr.reverse();
     console.log(arr); // [4, 3, 2, 1]
     ```
 
-16. **`sort()`**
-    - Sorts the elements of an array in place and returns the array. The default sort order is ascending.
-    ```javascript
-    let arr = [3, 1, 4, 2];
-    arr.sort();
-    console.log(arr); // [1, 2, 3, 4]
-    ```
-
-17. **`some()`**
-    - Tests whether at least one element in the array passes the test implemented by the provided function.
+14. **`find()`**
+    - Returns the value of the first element that satisfies the provided testing function.
     ```javascript
     let arr = [1, 2, 3, 4];
-    let hasEven = arr.some(x => x % 2 === 0);
-    console.log(hasEven); // true
+    let found = arr.find(x => x > 2);
+    console.log(found); // 3
     ```
 
-18. **`every()`**
-    - Tests whether all elements in the array pass the test implemented by the provided function.
+15. **`findIndex()`**
+    - Returns the index of the first element that satisfies the provided testing function.
     ```javascript
     let arr = [1, 2, 3, 4];
-    let allEven = arr.every(x => x % 2 === 0);
-    console.log(allEven); // false
+    let index = arr.findIndex(x => x > 2);
+    console.log(index); // 2
     ```
 
-19. **`includes()`**
-    - Determines whether an array includes a certain value among its entries, returning true or false.
-    ```javascript
-    let arr = [1, 2, 3, 4];
-    let containsTwo = arr.includes(2);
-    console.log(containsTwo); // true
-    ```
+## Window Object
+The window object represents the browser's window. It contains various properties and methods.
 
-20. **`flat()`**
-    - Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
-    ```javascript
-    let arr = [1, [2, [3, 4]], 5];
-    let flattened = arr.flat(2);
-    console.log(flattened); // [1, 2, 3, 4, 5]
-    ```
+### Common Methods
+- `alert("Hello, World!");`
+- `prompt("Enter your name:");`
+- `confirm("Are you sure?");`
 
+### Timer Methods
+- `setTimeout(function, milliseconds)`: Executes a function after a specified number of milliseconds.
+- `setInterval(function, milliseconds)`: Repeats execution of a function continuously every specified number of milliseconds.
 
-# Array Sorting
-
-### 1. `Array.sort()`
-Sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings and comparing their sequences of UTF-16 code units values.
-
-**Example:**
+### Example:
 ```javascript
-let numbers = [3, 1, 4, 1, 5, 9];
-numbers.sort();
-console.log(numbers);
-```
-**Output:**
-```
-[1, 1, 3, 4, 5, 9]
+setTimeout(() => {
+  console.log("Hello after 3 seconds");
+}, 3000);
+
+let interval = setInterval(() => {
+  console.log("Repeating every 2 seconds");
+}, 2000);
+
+// To clear the interval
+clearInterval(interval);
 ```
 
-### 2. `Array.reverse()`
-Reverses the elements of the array in place. The first array element becomes the last, and the last array element becomes the first.
+## DOM Manipulation
+The Document Object Model (DOM) allows scripts to update the content, structure, and style of a document.
 
-**Example:**
+### Selecting Elements
+- `document.getElementById("id")`
+- `document.getElementsByClassName("className")`
+- `document.getElementsByTagName("tagName")`
+- `document.querySelector("selector")`
+- `document.querySelectorAll("selector")`
+
+### Modifying Elements
+- `element.innerHTML = "New Content"`
+- `element.style.property = "value"`
+- `element.setAttribute("attribute", "value")`
+- `element.classList.add("className")`
+- `element.classList.remove("className")`
+- `element.classList.toggle("className")`
+
+### Creating and Removing Elements
+- `document.createElement("tagName")`
+- `element.appendChild(child)`
+- `element.removeChild(child)`
+- `element.replaceChild(newChild, oldChild)`
+
+### Event Handling
+- `element.addEventListener("event", function)`
+- `element.removeEventListener("event", function)`
+
+### Example:
 ```javascript
-let fruits = ['banana', 'apple', 'cherry'];
-fruits.reverse();
-console.log(fruits);
-```
-**Output:**
-```
-['cherry', 'apple', 'banana']
+let button = document.getElementById("myButton");
+button.addEventListener("click", () => {
+  alert("Button clicked!");
+});
+
+let div = document.createElement("div");
+div.innerHTML = "Hello, World!";
+document.body.appendChild(div);
+
+document.body.removeChild(div);
 ```
 
-### 3. `Array.sort(compareFunction)`
-Sorts the elements of an array using a custom compare function. The compare function determines the sort order.
-
-**Example:**
-```javascript
-let numbers = [3, 1, 4, 1, 5, 9];
-numbers.sort((a, b) => a - b);  // Ascending order
-console.log(numbers);
-```
-**Output:**
-```
-[1, 1, 3, 4, 5, 9]
+### Adding External JavaScript
+Add the following line in your HTML file inside the `<head>` or `<body>` tag:
+```html
+<script src="filename.js"></script>
 ```
 
-### 4. `Array.sort().reverse()`
-Combines sorting and reversing to sort the array in descending order.
-
-**Example:**
-```javascript
-let numbers = [3, 1, 4, 1, 5, 9];
-numbers.sort().reverse();
-console.log(numbers);
-```
-**Output:**
-```
-[9, 5, 4, 3, 1, 1]
-```
-
-### 5. `Array.prototype.map().sort()`
-Sorts the elements based on a property of the objects within the array.
-
-**Example:**
-```javascript
-let items = [
-    { name: 'apple', price: 2 },
-    { name: 'banana', price: 1 },
-    { name: 'cherry', price: 3 }
-];
-items.sort((a, b) => a.price - b.price);
-console.log(items);
-```
-**Output:**
-```
-[{ name: 'banana', price: 1 }, { name: 'apple', price: 2 }, { name: 'cherry', price: 3 }]
-```
-
-### 6. `Array.prototype.sort((a, b) => b - a)`
-Sorts the elements of an array in descending numerical order.
-
-**Example:**
-```javascript
-let numbers = [3, 1, 4, 1, 5, 9];
-numbers.sort((a, b) => b - a);  // Descending order
-console.log(numbers);
-```
-**Output:**
-```
-[9, 5, 4, 3, 1, 1]
-```
-
-### 7. `Array.from()`
-Creates a new array instance from an array-like or iterable object. Not a sorting method per se, but useful for creating arrays to sort.
-
-**Example:**
-```javascript
-let set = new Set([3, 1, 4, 1, 5, 9]);
-let arrayFromSet = Array.from(set).sort();
-console.log(arrayFromSet);
-```
-**Output:**
-```
-[1, 3, 4, 5, 9]
-```
-
+This concludes the LearnJS summary of fundamental JavaScript concepts and syntax.

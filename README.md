@@ -66,6 +66,32 @@ Objects in JavaScript are similar to dictionaries in Python (key-value pairs).
 ### Arithmetic Operators
 - `+`, `-`, `*`, `**`, `/`, `%`, `++`, `--`
 
+
+| Operator | Name                      | Description                                                               | Example                 | Result                   |
+|----------|---------------------------|---------------------------------------------------------------------------|-------------------------|--------------------------|
+| `+`      | Addition                  | Adds two operands.                                                        | `5 + 3`                 | `8`                      |
+| `-`      | Subtraction               | Subtracts the second operand from the first.                              | `5 - 3`                 | `2`                      |
+| `*`      | Multiplication            | Multiplies two operands.                                                  | `5 * 3`                 | `15`                     |
+| `/`      | Division                  | Divides the first operand by the second.                                  | `6 / 3`                 | `2`                      |
+| `%`      | Modulus (Remainder)       | Returns the remainder when the first operand is divided by the second.    | `5 % 2`                 | `1`                      |
+| `**`     | Exponentiation            | Raises the first operand to the power of the second operand.              | `2 ** 3`                | `8`                      |
+| `++`     | Increment                 | Increases an integer value by one.                                        | `let a = 1; a++`        | `2`                      |
+| `--`     | Decrement                 | Decreases an integer value by one.                                        | `let b = 2; b--`        | `1`                      |
+
+---
+
+### Notes:
+
+- **Addition (`+`)**: Adds numbers or concatenates strings if one of the operands is a string.
+- **Subtraction (`-`)**: Only subtracts numbers; does not work with strings.
+- **Multiplication (`*`)**: Multiplies two numeric operands.
+- **Division (`/`)**: Divides one numeric operand by another. Returns a floating-point number if division is not exact.
+- **Modulus (`%`)**: Useful for finding even/odd numbers or cycling through a range.
+- **Exponentiation (`**`)**: Calculates the power of a number.
+- **Increment (`++`)**: Adds `1` to its operand. If used as a prefix (`++a`), it increments before the value is used; if used as a postfix (`a++`), it increments after.
+- **Decrement (`--`)**: Subtracts `1` from its operand. If used as a prefix (`--b`), it decrements before the value is used; if used as a postfix (`b--`), it decrements after.
+
+
 ### Assignment Operators
 - `=`, `+=`, `-=`, `/=`, `%=`, `*=`, `**=`
 

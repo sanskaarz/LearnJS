@@ -131,9 +131,6 @@ This roadmap gives a structured pathway to learning JavaScript, starting from th
 2. `var`
 3. `const`
 
-- `let`: Initialization is optional.
-- `const`: Initialization is required.
-- `var`: Initialization is optional.
 
 <div align="center">
 
@@ -171,6 +168,9 @@ console.log(typeof a); // Output: object
 ```
 
 ## Objects
+Collection of Properties/Named Values.
+- Properties = key/value pairs.
+
 Objects in JavaScript are similar to dictionaries in Python (key-value pairs).
 
 ### Accessing Object Values
@@ -640,4 +640,4 @@ Add the following line in your HTML file inside the `<head>` or `<body>` tag:
 <script src="filename.js"></script>
 ```
 
-This concludes the LearnJS summary of fundamental JavaScript concepts and syntax.
+This concludes the summary of fundamental JavaScript concepts and syntax. Feel free to revisit any section as needed to reinforce your understanding. Happy coding!🪴🚀

@@ -67,3 +67,15 @@ reporter of any incident.
 This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org/), version
 [1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct/code_of_conduct.md) and
 [2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
+
+## How to Submit Pull Requests
+
+We welcome contributions from the community! If you'd like to contribute to this repository, please follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your changes.
+3. Make your changes and commit them with clear and descriptive messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to the main repository, describing the changes you've made.
+
+Please ensure that your contributions align with the purpose of the repository and adhere to the code of conduct.

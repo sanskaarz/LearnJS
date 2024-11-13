@@ -19,6 +19,9 @@ Welcome to the JavaScript Learning Roadmap! This guide will help you master Java
 8. [Advanced JavaScript Concepts](#advanced-javascript-concepts)
 9. [JavaScript Ecosystem and Tools](#javascript-ecosystem-and-tools)
 10. [Projects and Practice](#projects-and-practice)
+11. [Purpose of the Repository](#purpose-of-the-repository)
+12. [How to Contribute](#how-to-contribute)
+13. [How to Report Issues](#how-to-report-issues)
 
 ---
 
@@ -97,6 +100,28 @@ Welcome to the JavaScript Learning Roadmap! This guide will help you master Java
 - **Advanced Projects**: E-commerce Website, Social Media Dashboard, Real-Time Chat Application
 - **Contributing to Open Source Projects**
 - **Code Challenges and Online Platforms**: LeetCode, Codewars, HackerRank
+
+---
+
+## Purpose of the Repository
+
+The purpose of this repository is to provide a comprehensive guide for learning JavaScript. It covers a wide range of topics, from basic concepts to advanced techniques, and includes practical projects to help you apply what you've learned. Whether you're a beginner or an experienced developer, this repository aims to enhance your JavaScript skills and knowledge.
+
+## How to Contribute
+
+We welcome contributions from the community! If you'd like to contribute to this repository, please follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your changes.
+3. Make your changes and commit them with clear and descriptive messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to the main repository, describing the changes you've made.
+
+Please ensure that your contributions align with the purpose of the repository and adhere to the code of conduct.
+
+## How to Report Issues
+
+If you encounter any issues or have suggestions for improvements, please report them by opening an issue in the repository. Provide as much detail as possible, including steps to reproduce the issue if applicable. We appreciate your feedback and will do our best to address any problems promptly.
 
 ---
 

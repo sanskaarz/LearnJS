@@ -126,3 +126,7 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+## Contact Information
+
+If you need to report a violation of this Code of Conduct, please contact the community leaders responsible for enforcement at <sanskar786g@gmail.com>. All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
